@@ -1,0 +1,30 @@
+alert(""); //message box訊息跳出來
+
+document.write("");//將文字寫入網頁中
+
+var x = document.getElementById("x"); //取得屬性x值，並傳給x
+x.innerHTML //變更網頁內的文字
+x.value //取得值
+
+var h = document.createElement("H1");//建立新的h1標籤
+var t = document.createTextNode("Hellow World"); //新增文字節點
+h.appendChild(t); = <h1>Hellow World</h1>
+
+var x=document.getElementsByTagName("input");  //取得標籤
+alert(x.length);//列出input的標籤有幾個
+var x=document.getElementsByName("book");  //取得name
+alert(x.length);//列出name的標籤有幾個
+
+var x= document.forms["form1"].elements["test"] //form1表單中的id=test的輸入欄位
+
+onclick 點擊觸發
+onchange
+onsubmit
+
+console.log("message"); //協助除錯
+console.log(document.childNodes); //列出所有子節點
+console.log(document.firstChild); //列出第一個子節點，head and body
+console.log(document.body.childNodes); //列出body底下的子節點
+console.log(document.childNodes[0]); //從節點集合中取得單一節點
+
+
