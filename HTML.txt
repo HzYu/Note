@@ -1,0 +1,64 @@
+HTML架構
+<html>
+
+<head>
+<meta charset="UTF-8" />
+</head>
+
+<script>
+</script>
+
+<body>
+</body>
+
+</html>
+-----------------------------------
+<p>段落
+<br>強迫換行
+<hr>水平線
+<i>斜體
+<b>粗體
+<u>底線
+<sup><sub>上下標字
+<mark>螢光筆
+<p align="center">置中
+-----------------------------------
+*id視為身分證只能唯一，name視為名子可以重複
+
+特殊type：email tel number url
+autofocus 輸入焦點
+placeholder="" 提示訊息
+autocomplete="off" 關閉自動完成
+required 未輸入，不會送出
+
+<form id=form1 method=post/get action="">
+<input type=text>
+<input type=password>
+<input type=color>
+<textarea name=note rows=4 cols=30>
+<input type=file name=loadfile>
+<input type=range name=high min=0 max=10>
+<input type=submit/reset name=ok value=確認/取消>
+
+<input type=radio name=sex value=male check>
+<input type=radio name=sex value=female>
+
+<input type=checkbox name=interest value=sport>運動
+<input type=checkbox name=interest value=read>閱讀
+
+<select name=area>下拉式選單
+<option value=1>a</option>
+<option value=2 selected>b</option>
+
+<select name=tour multiple>群組式選單/複選
+<optgroup label=國內>
+<option value=1>a</option>
+<option value=2>b</option>
+</optgroup>
+
+<fieldset>外框
+<legend>a</legend>
+</fieldset>
+
+<input type=date/time/week/month/datetimelocal name=birth value=1997/1/1>
+
