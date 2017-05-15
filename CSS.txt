@@ -1,0 +1,49 @@
+連接外部檔案
+<head>
+<link href="CSS的路徑" rel="stylesheet" media=all>
+</head>
+
+<head>
+<style>
+------------------------------------------------------
+<p class="file" style=" color:red; font-size：20pt; ">
+
+body{
+background：blue;//背景顏色
+background-image:url('img/1.jpg');//背景圖案
+text-align：center//全部置中
+}
+
+h1{
+color：#ff0000;//文字顏色
+}
+
+p{ 
+  border:#0000FF 5px solid;  //框線顏色/粗度/實線
+}
+
+</style>
+</head>
+-------------------------------------------------------
+background：blue;//背景顏色
+background-image:url('img/1.jpg');//背景圖案
+background-repeat:repeat / no-repeat / repeat-x /repeat-y; //背景圖案不重複/x-方向重複/y-方向重複/x-及y-方向重複
+background-attachment: fixed/scroll; //當網頁捲動時，背景圖案會固定/捲動
+
+color：blue;//文字顏色
+
+font-family：標楷體;//文字字型
+font-size：20pt;//文字大小
+font-weight：100 / blod //厚度
+
+border-style：solid / dashed / double /dotted;//實線/虛線/雙線/點線
+border-width：9px /thin / medium / thick ;//框線粗度/薄/中等/厚
+border-color：red;//框線顏色
+
+text-align：center / right /left //文字對齊
+
+height：100px;長
+width：100px;寬
+padding：5px;外側
+margin：10px;內側
+
