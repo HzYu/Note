@@ -6,7 +6,7 @@ var x = document.getElementById("x"); //取得屬性x值，並傳給x
 x.innerHTML //變更網頁內的文字
 x.value //取得值
 
-var h = document.createElement("H1");//建立新的h1標籤
+var h = document.createElement("h1");//建立新的h1標籤
 var t = document.createTextNode("Hellow World"); //新增文字節點
 h.appendChild(t); = <h1>Hellow World</h1>
 
@@ -20,6 +20,8 @@ var x= document.forms["form1"].elements["test"] //form1表單中的id=test的輸入欄位
 onclick 點擊觸發
 onchange
 onsubmit
+
+setInterval(play, 1000);//輪播(function,毫秒)
 
 console.log("message"); //協助除錯
 console.log(document.childNodes); //列出所有子節點
