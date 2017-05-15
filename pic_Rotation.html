@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <style>
+		
+			body
+			{
+			background-image:url('img/5.jpg');
+			text-align:center;			
+			}
+			
+			.selected{
+			background:orange;
+			}
+			
+            .small
+            {
+				margin:10px;
+                height: 90px;
+                width: 120px;
+                border:2px solid;
+				padding: 5px;
+            }
+             .small2
+            {
+                height: 180px;
+                width: 240px;
+                solid;padding: 5px;
+            }
+            .big
+            {
+                height: 360px;
+                width: 480px;
+				margin:50px;
+				border-style:solid;
+				border-width:20px;		
+				padding:25px;
+				background-color:white;
+            }     
+			.file
+			{
+				background-color:white;
+				border:2px solid;
+				padding:10px;
+				margin-left:880px; 
+				margin-right:880px;<!--調整左右長度 -->
+			}
+        </style>
+
+        <script>
+            setInterval(play, 1000);
+            var index = 1;
+
+            function play() 
+            {
+                var imgs = document.getElementById("thumbs").getElementsByTagName("img");
+                var bigImg = document.getElementById("big");
+				imgs[index].classList.remove("selected");  //清除橘色的選取
+                index++;
+                if (index == imgs.length) index = 0;
+				imgs[index].classList.add("selected");     //增加橘色的選取
+                bigImg.setAttribute("src", imgs[index].getAttribute("src"));   
+            }
+			
+			function addpic()//新增圖片
+			{				
+			    var img = document.createElement("img"); //建立一個img標籤
+				img.setAttribute("class","small");//設定img的class屬性
+				var loadfile = document.getElementById("loadfile");
+			  //var add_img = document.getElementById("add_img");
+				var thumbs = document.getElementById("thumbs");
+				
+				img.src=loadfile.value;//設定img.src的圖片連結
+				thumbs.appendChild(img)//把 img的標籤 放到thumds的子節點下
+			//	alert(img.class);
+			}			  
+			
+			function click(src)
+			{
+				
+				var big = document.getElementById("big_pic").getElementsByTagName("img")[0];
+				big.setAttribute("src","img/1.jpg");				
+			}
+			
+			
+        </script>
+    </head>
+    <body>
+        <h1>無尾熊的菊花，燈塔上的企鵝</h1> 
+        <div id="thumbs">
+            <img class="small" src="img/1.jpg" onclick=click();>
+            <img class="small" src="img/2.jpg" onclick=click();>
+            <img class="small" src="img/3.jpg" onclick=click(src);>
+            <img class="small" src="img/4.jpg" onclick=click(src);>
+	<!--	<img id=add_img class="small" src=""> -->
+        </div>
+        <div id="big_pic">
+            <img id="big" class="big" src="img/2.jpg">          
+        </div>
+		<p class="file" style="color:red;">
+		新增圖片（可瀏覽多張圖片）
+		<input type=file id=loadfile onchange=addpic();>
+		</p>
+    </body>
+</html>
