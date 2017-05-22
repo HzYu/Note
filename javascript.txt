@@ -1,3 +1,11 @@
+onclick 點擊觸發
+onchange
+onsubmit
+onload
+
+setInterval(play, 1000);//輪播(function,毫秒)
+--------------------------------------------------------------------------------------------
+
 alert(""); //message box訊息跳出來
 
 document.write("");//將文字寫入網頁中
@@ -17,12 +25,15 @@ alert(x.length);//列出name的標籤有幾個
 
 var x= document.forms["form1"].elements["test"] //form1表單中的id=test的輸入欄位
 
-onclick 點擊觸發
-onchange
-onsubmit
+imgs[index].classList.add("selected");//新增class樣式，元素添加
 
-setInterval(play, 1000);//輪播(function,毫秒)
+img.setAttribute("class"/"type","small"/"button");//設定img的class屬性 / 新增type button
 
+document.addEventListener("change", function()//點擊一下，背景變紅色
+{
+    document.body.style.backgroundColor = "red";
+});
+---------------------------------------------------------------------------------------------
 console.log("message"); //協助除錯
 console.log(document.childNodes); //列出所有子節點
 console.log(document.firstChild); //列出第一個子節點，head and body
