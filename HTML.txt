@@ -3,10 +3,9 @@ HTML¬[ºc
 
 <head>
 <meta charset="UTF-8" />
-</head>
-
-<script>
+<script type="text/javascript">
 </script>
+</head>
 
 <body>
 </body>
