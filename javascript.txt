@@ -1,7 +1,10 @@
+this 本身點選的物件
+event.targe點擊事件
 onclick 點擊觸發
 onchange
 onsubmit
 onload
+
 
 setInterval(play, 1000);//輪播(function,毫秒)
 --------------------------------------------------------------------------------------------
@@ -23,9 +26,10 @@ alert(x.length);//列出input的標籤有幾個
 var x=document.getElementsByName("book");  //取得name
 alert(x.length);//列出name的標籤有幾個
 
-var x= document.forms["form1"].elements["test"] //form1表單中的id=test的輸入欄位
-
 imgs[index].classList.add("selected");//新增class樣式，元素添加
+imgs[index].classList.remove("selected");//新增class樣式，元素添加
+
+var x= document.forms["form1"].elements["test"] //form1表單中的id=test的輸入欄位
 
 img.setAttribute("class"/"type","small"/"button");//設定img的class屬性 / 新增type button
 
@@ -34,10 +38,27 @@ document.addEventListener("change", function()//點擊一下，背景變紅色
     document.body.style.backgroundColor = "red";
 });
 ---------------------------------------------------------------------------------------------
+textbox
+textbox.value//值
+
+checkbox (chk)
+chk.checked//判斷是否有勾選
+
+number
+num.value//取得number的值
+
+select option (sel)
+sel.options[sel.selectedIndex].text//選擇的數值
+
+table
+tab.rows[0].cells[0].innerHTML//取得表格的值
+row.value//第幾列
+col.value//第幾行
+onclick="changecolor(event.target.parentNode.rowIndex , event.target.cellIndex)";//取得點擊表格的行列位置
+---------------------------------------------------------------------------------------------
 console.log("message"); //協助除錯
 console.log(document.childNodes); //列出所有子節點
 console.log(document.firstChild); //列出第一個子節點，head and body
 console.log(document.body.childNodes); //列出body底下的子節點
 console.log(document.childNodes[0]); //從節點集合中取得單一節點
-
 

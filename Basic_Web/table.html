@@ -1,0 +1,61 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>表格按鈕</title>
+</head>
+<style>	
+	.wid{
+		width:500px;
+		text-align:center;	
+	}
+</style>
+
+<script>
+function changecolor(x,y)//row,col
+{
+	//console.log(event.target.parentNode.rowIndex);
+	//console.log(event.target.cellIndex);
+	if( x== undefined || y == undefined)
+	{
+		alert("未選取到表格");
+		return 0;
+	}
+	var tab = document.getElementById("tab");
+	var c = tab.rows[x].cells[y];
+	c.innerHTML = parseInt(c.innerHTML)+1;
+	if(parseInt(c.innerHTML) == 1)
+	{
+		c.style.background = '#FF00FF';
+	}
+	else if(parseInt(c.innerHTML) == 2)
+	{
+		c.innerHTML = 0;
+		c.style.background = '#FFFFFF' ;
+	}
+}
+</script>
+
+<body>  <!--event事件 target目的地 點擊事件-->
+<table border=1 id=tab align=center class=wid onclick="changecolor(event.target.parentNode.rowIndex , event.target.cellIndex)";>
+
+<tr>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+</tr>
+
+<tr>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+</tr>
+
+<tr>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+</tr>
+
+</table>
+</body>
+</html>
