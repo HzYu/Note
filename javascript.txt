@@ -38,8 +38,8 @@ document.addEventListener("change", function()//點擊一下，背景變紅色
     document.body.style.backgroundColor = "red";
 });
 ---------------------------------------------------------------------------------------------
-textbox
-textbox.value//值
+text
+text.value//值
 
 checkbox (chk)
 chk.checked//判斷是否有勾選
