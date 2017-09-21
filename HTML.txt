@@ -3,7 +3,9 @@ HTML¬[ºc
 
 <head>
 <meta charset="UTF-8" />
+<link href="CSSªº¸ô®|" rel="stylesheet" type="text/css">
 <script type="text/javascript">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> //jQuery¨ç¼Æ®w
 </script>
 </head>
 
