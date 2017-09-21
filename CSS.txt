@@ -1,6 +1,6 @@
 連接外部檔案
 <head>
-<link href="CSS的路徑" rel="stylesheet" media=all>
+<link href="CSS的路徑" rel="stylesheet" type="text/css">
 </head>
 
 <head>
