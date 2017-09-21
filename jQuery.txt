@@ -1,0 +1,19 @@
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>  載入jQuery的函數庫
+
+
+---------------------------------------------------------------------
+$('h1') 取得 h1 的元素
+$('#a') 取得 id=a 的元素
+$('.a') 取得 class=a 的元素
+
+$('h1').text() 讀取 h1 裡的文字
+$('h1').text('hello') 寫入 h1 裡的文字
+$('#a').val() 取得 id=a input裡的值
+$('a').attr('屬性名稱','設定的值') 查詢或設定元素的值
+$('a').attr('href') 查詢 a 元素的 href屬性
+$('a').attr('href','http://google.com') 將所有 a 的元素 href 屬性 都設為google.com
+
+var a = $('<h1>Hello</h1>'); 建立新的h1元素 文字內容為Hello
+var a = $('<span></span>').text('Hello'); 建立新的span元素 並將其內容更改設為Hello
+
+
