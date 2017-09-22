@@ -6,6 +6,8 @@
 <head>
 <style>
 ------------------------------------------------------
+#id  .class
+
 <p class="file" style=" color:red; font-size¡G20pt; ">
 
 body{

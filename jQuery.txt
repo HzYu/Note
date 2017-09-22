@@ -1,6 +1,6 @@
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>  載入jQuery的函數庫
 
-
+$('button').click(function(){  });
 ---------------------------------------------------------------------
 $('h1') 取得 h1 的元素
 $('#a') 取得 id=a 的元素
@@ -13,7 +13,22 @@ $('a').attr('屬性名稱','設定的值') 查詢或設定元素的值
 $('a').attr('href') 查詢 a 元素的 href屬性
 $('a').attr('href','http://google.com') 將所有 a 的元素 href 屬性 都設為google.com
 
+$('ul').append('<li></li>'); 加入新的子元素，並加到現有子元素之後    <ul><li></li></ul>
+$('ul').prepend('<li></li>'); 加入新的子元素，並加到現有子元素之前   <li><ul></ul></li>
+$('p').wrap('<div></div>'); 加入新的父元素  <div><p></p></div>
+
+$('#a').remove();移除文件中 id=a 的元素
+
+$('p')[3].style.color ='red'; 取得集合中第 4 個p元素物件
+$('a').css('font-size'); 傳回第 1 個 a元素font-size的屬性值
+$('a').css('font-size','2em'); 傳回第 1 個 a元素font-size的屬性值設為2em
+$('div').width() 傳回第 1 個div元素寬度值
+$('div').width(300) 傳回第 1 個div元素寬度值設為300px
+$('p').css({ 'height' : 30 , 'color' : 'green' });
+
 var a = $('<h1>Hello</h1>'); 建立新的h1元素 文字內容為Hello
 var a = $('<span></span>').text('Hello'); 建立新的span元素 並將其內容更改設為Hello
+
+
 
 
