@@ -11,11 +11,12 @@
 <ul id=book_list></ul>
 
 <script>
-$('#add_book').click(function(){
-								$('#book_list').append('<li>'+$('#book_name').val()+'</li>')//新增li元素和text的值
-								$('#book_name').val('');//清除text
-								$('#count').text($('#book_list li').length);//計數book_list底下的li的數量
-							   });
+$('#add_book').click(function()
+{
+$('#book_list').append('<li>'+$('#book_name').val()+'</li>')//新增li元素和text的值
+$('#book_name').val('');//清除text
+$('#count').text($('#book_list li').length);//計數book_list底下的li的數量
+});
 </script>
 </body>
 
