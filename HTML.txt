@@ -39,7 +39,7 @@ required 未輸入，不會送出
 <input type=text>
 <input type=password>
 <input type=color>
-<textarea name=note rows=4 cols=30>
+<textarea name=note rows=4 cols=30></textarea>文字區塊
 <input type=file name=loadfile>
 <input type=range name=high min=0 max=10>
 <input type=submit/reset name=ok value=確認/取消>
