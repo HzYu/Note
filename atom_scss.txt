@@ -19,21 +19,21 @@ pigments
 cscc
 
 裝ruby
+
 安裝compass，打開 cmd (gem install compass)
 
-新增資料夾 用cmd到目錄底下
+新增資料夾 用cmd到目錄底下 打(compass create style)
 
-(compass create style)
 
 在style資料夾底下會出現 (四樣東西)
 
-.sass-catch
+１ .sass-catch
 
-sass 
+２　sass 
 
-stylesheets
+３　stylesheets
 
-config.rb 
+４　config.rb 
 
 進入config.rb 設定檔改成
 
