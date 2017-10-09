@@ -1,0 +1,64 @@
+atom 插件
+atom-beautify
+busy-signal
+color-picker
+css-snippets
+emmet
+file-icons
+highlight-selected
+intentions
+linter
+linter-htmlhint
+linter-js-standard
+linter-php
+linter-ui-default
+minimap
+pigments
+
+-------------------------------------------------------
+cscc
+
+裝ruby
+安裝compass，打開 cmd (gem install compass)
+
+新增資料夾 用cmd到目錄底下
+
+(compass create style)
+
+在style資料夾底下會出現 (四樣東西)
+
+.sass-catch
+
+sass 
+
+stylesheets
+
+config.rb 
+
+進入config.rb 設定檔改成
+
+http_path = "/"
+css_dir = "css"
+sass_dir = "sass"
+images_dir = "images"
+javascripts_dir = "javascripts"
+
+並把style底下的資料夾
+
+stylesheets → css
+
+---------------------------------------------------------
+*如有編碼錯誤，在css檔輸入一行code @charset "UTF-8";
+
+把html放到style底下
+sass是放scss檔
+
+要監看看更改
+
+打開cmd (compass watch style)
+
+
+
+
+
+
