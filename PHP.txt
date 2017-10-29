@@ -1,8 +1,16 @@
 連接資料庫
 <?php
-mysql_connect("127.0.0.1","root(帳號)","12345678(密碼)");
-mysql_select_db("class");  選擇要連接資料庫
-mysql_query("set names utf8");  編碼
+$conn=@mysql_connect("127.0.0.1","root(帳號)","12345678(密碼)");
+if(!$conn)
+{
+	die("mysql database fail");
+}
+else
+{
+        //echo "mysql database success";
+	mysql_select_db("class");選擇要連接資料庫
+	mysql_query("set names utf8");編碼
+}
 ?>
 ------------------------------------------------------------------------
 mysql語法   $ 宣告
@@ -26,7 +34,7 @@ while($rs=mysql_fetch_array($result))  列出資料表資料
    echo $rs[id] . $rs[1];
 }
 
-<a href='editor.php?id=$rs[id]'>  //網址後面傳id
+<a href='editor.php? op=del & id=$rs[id]'>  //網址後面傳del和id
 
 $id=$_POST["id"];//取得html的標籤名稱
 $sql_select = "SELECT * FROM `student` WHERE id=$select_id";  //利用id搜尋整欄的資料
@@ -40,7 +48,12 @@ header("location:score.php"); //連結到score.php
 -------------------------------------------------------------------------
 php 小指令
 &nbsp  空格
+@ 省略sql錯誤
+die 為 exit 的別名，中斷程式並輸出訊息 
+echo 單傳輸出訊息
 is_numeric($chinese) 判斷是否為數字 是為true
+isset()函數是用來判斷變數是不是有存在 如果有就回傳 true
+empty()函數用來判斷"值"是不是空的，如果沒有就回傳 true
 
 
 
