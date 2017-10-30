@@ -45,6 +45,9 @@ $sql_delect="DELETE FROM `student` WHERE id LIKE '%1%' OR name LIKE '%2%'";  §R°
 $sql_editor = "UPDATE 'student' SET name='$name' , sex='$sex' , chinese='$chinese' ,math='$math' WHERE id='$_GET[id]'" ;  //§Q¥Î¯Á¤Þid¥h´M§äÄæ¦ì¡A¨Ã­×§ï¸ê®Æ
 mysql_query($sql_add);  //°õ¦æsql»yªk
 header("location:score.php"); //³sµ²¨ìscore.php
+echo "<script type='text/javascript'>"  //³sµ²¨ìscore.php
+     ."window.location.href='score.php'"
+     ."</script>";  
 -------------------------------------------------------------------------
 php ¤p«ü¥O
 &nbsp  ªÅ®æ
