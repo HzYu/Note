@@ -24,7 +24,7 @@ for ($i=0;$i<$cols;$i++)
 	mysql_field_name($results,$i(行))  列出第一列title的名稱
 }
 
-$mysql_result( $results, $i , $j)  第 $i 列 , 第 $ j 行的資料內容 
+mysql_result( $results, $i , $j)  第 $i 列 , 第 $ j 行的資料內容 
 
 $rs=mysql_fetch_array()  索引值可以是數字和字串($a = $row[0]; $a = $row["a"];)
 $rs=mysql_fetch_assoc()  索引值可以是字串
@@ -44,19 +44,43 @@ $sql_delect="DELETE FROM `student` WHERE 'id'=1 AND 'name'='timmy'  刪除id為1 和
 $sql_delect="DELETE FROM `student` WHERE id LIKE '%1%' OR name LIKE '%2%'";  刪除id有關1的數字 或 name有關2的字串
 $sql_editor = "UPDATE 'student' SET name='$name' , sex='$sex' , chinese='$chinese' ,math='$math' WHERE id='$_GET[id]'" ;  //利用索引id去尋找欄位，並修改資料
 mysql_query($sql_add);  //執行sql語法
+-------------------------------------------------------------------------
+連結到指定網頁
+ob_start(); 打開輸出緩沖區
 header("location:score.php"); //連結到score.php
+
 echo "<script type='text/javascript'>"  //連結到score.php
      ."window.location.href='score.php'"
      ."</script>";  
 -------------------------------------------------------------------------
+array 語法
+for ($i=0 ; $i<10 ;$i++)  宣告a陣列
+{
+    $a[i]=0; 
+}
+$a=rand(Min,Max) 亂數
+in_array("Mark"(想搜尋的值), $a(陣列)) 判斷陣列中是否有相同的值(重複)
+-------------------------------------------------------------------------
+讀取引入的檔
+require_once("connectdb.php");  
+include_once("connectdb.php");
+-------------------------------
+判斷是否有值或數字
+isset()  函數是用來判斷變數是不是有存在 如果有就回傳 true
+empty()  函數用來判斷"值"是不是空的，如果沒有就回傳 true
+is_numeric($chinese) 判斷是否為數字 是為true
+-------------------------------------------------------
 php 小指令
+
 &nbsp  空格
 @ 省略sql錯誤
 die 為 exit 的別名，中斷程式並輸出訊息 
 echo 單傳輸出訊息
-is_numeric($chinese) 判斷是否為數字 是為true
-isset()函數是用來判斷變數是不是有存在 如果有就回傳 true
-empty()函數用來判斷"值"是不是空的，如果沒有就回傳 true
+
+
+
+
+
 
 
 
