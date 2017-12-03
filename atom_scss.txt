@@ -20,7 +20,7 @@ cscc
 
 裝ruby
 
-安裝compass，打開 cmd (gem install compass)
+安裝compass，打開 cmd 打(gem install compass)
 
 新增資料夾 用cmd到目錄底下 打(compass create style)
 
@@ -53,11 +53,12 @@ stylesheets → css
 把html放到style底下
 sass是放scss檔
 
-要監看看更改
+要監看 看更改
 
 打開cmd (compass watch style)
 
-
+---------------------------------------------------------
+cmd CTRL+SHIFT+T
 
 
 

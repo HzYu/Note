@@ -35,13 +35,19 @@ while($rs=mysql_fetch_array($result))  列出資料表資料
 }
 
 <a href='editor.php? op=del & id=$rs[id]'>  //網址後面傳del和id
-
+-------------------------------------------------------------------------
+新增 刪除 更新 查詢與語法
 $id=$_POST["id"];//取得html的標籤名稱
-$sql_select = "SELECT * FROM `student` WHERE id=$select_id";  //利用id搜尋整欄的資料
+$sql_select = "SELECT * FROM `student` WHERE id='$select_id'";  //利用id搜尋整欄的資料
+$sql_select = "SELECT * FROM `student` WHERE id='$select_id' ORDER BY id ASC";  //利用id搜尋整欄的資料，並遞增排序
+$sql_select = "SELECT * FROM `student` WHERE id='$select_id' ORDER BY id DESC";  //利用id搜尋整欄的資料，並遞減排序
+
 $sql_add = "INSERT INTO 'student'(資料表) VALUES ('$id','$name','$sex','$chinese','$math')";  新增資料
+
 $sql_delect="DELETE FROM `student` WHERE id=$_GET[id]";  //刪除資料
 $sql_delect="DELETE FROM `student` WHERE 'id'=1 AND 'name'='timmy'  刪除id為1 和 name為timmy 的資料
 $sql_delect="DELETE FROM `student` WHERE id LIKE '%1%' OR name LIKE '%2%'";  刪除id有關1的數字 或 name有關2的字串
+
 $sql_editor = "UPDATE 'student' SET name='$name' , sex='$sex' , chinese='$chinese' ,math='$math' WHERE id='$_GET[id]'" ;  //利用索引id去尋找欄位，並修改資料
 mysql_query($sql_add);  //執行sql語法
 -------------------------------------------------------------------------
