@@ -27,28 +27,39 @@ p{
 </style>
 </head>
 -------------------------------------------------------
+backgroud
 background：blue;//背景顏色
 background-image:url('img/1.jpg');  //背景圖案
 background-repeat:repeat / no-repeat / repeat-x /repeat-y; // 背景圖案不重複 / x-方向重複 / y-方向重複 /x-及y-方向重複
 background-attachment: fixed/scroll;  //當網頁捲動時，背景圖案會固定/捲動
-
+-------------------------------------------------------
+font
 color：blue;//文字顏色
-
 font-family：標楷體; //文字字型
 font-size：20pt; //文字大小
 font-weight：100 / blod  //寬度
-
+text-align：center / right /left //文字對齊
+-------------------------------------------------------
+border
 border:#0000FF 5px solid; //顏色 大小 實線(縮寫)
 border-style：solid / dashed / double /dotted; // 實線 / 虛線 / 雙線 / 點線
 border-width：9px /thin / medium / thick ; // 框線粗度 / 薄 / 中等 / 厚
 border-color：red; //框線顏色
 border-bottom-style:solid; //底線 (top / bottom / left / right)
 border-bottom-color:red; 底線顏色
-
-text-align：center / right /left //文字對齊
+border-radius:30px  增添圓角邊框
 
 min-height:100px;段落最小高度
-
+-------------------------------------------------------
+position
+position: static    不會被特別定位 而是照著瀏覽器預設的配置自動排版在頁面上
+position: relative  基本上和 static 一樣，除非增加了 top right bottom 和 left 屬性
+                    不管這些「相對定位」的元素如何在頁面上移動，不會影響到原本其他元素所在的位置
+position: fixed     元素會相對於瀏覽器視窗來定位，頁面捲動，它還是會固定在相同的位置隨著頁面捲動， top right bottom 和 left 屬性來定位
+position: absolute  定位是在他所處上層容器的相對位置，它會相對於它的父元素進行定位
+		    畫面在捲動時，該元素還是會隨著頁面捲動
+-------------------------------------------------------
+transform:translate(x(橫),y(縱))   2D 橫向移動x距離、縱向移動y距離
 -------------------------------------------------------
 <div><span> 基本排版 (可用有顏色的線條看空間是如何)
 
