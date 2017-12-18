@@ -55,10 +55,11 @@ sass是放scss檔
 
 要監看 看更改
 
-打開cmd (compass watch style)
+到資料夾下 打開cmd 輸入(compass watch style)
 
 ---------------------------------------------------------
 cmd CTRL+SHIFT+T
+html網頁引入.css 不要引入.scss
 
 
 
