@@ -1,0 +1,15 @@
+外掛
+Angular 5 Snippets
+Auto Close Tag
+
+-----------------------------------
+開啟cmd ctrl+shift+p
+
+-----------------------------------
+git
+setting，搜找git
+"git.path": "D:/Git/bin/git.exe",//git.exe 的目錄
+"git.autofetch": true,
+
+要目標git目錄
+打開cmd git clone → git@github.com:RatiSmiDB/bootstrap.git → C:\Users\tim40\Desktop\
