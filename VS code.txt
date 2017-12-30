@@ -3,7 +3,7 @@ Angular 5 Snippets
 Auto Close Tag
 
 -----------------------------------
-開啟cmd ctrl+shift+p
+開啟命令面板 ctrl+shift+p
 
 -----------------------------------
 git
@@ -12,4 +12,37 @@ setting，搜找git
 "git.autofetch": true,
 
 要目標git目錄
-打開cmd git clone → git@github.com:RatiSmiDB/bootstrap.git → C:\Users\tim40\Desktop\
+打開命令面板 git clone → git@github.com:RatiSmiDB/bootstrap.git → C:\Users\tim40\Desktop\
+
+-----------------------------------
+sass/scss
+http://edwardkuo.imas.tw/paper/2016/10/19/VisualStudio/2016-10-20/
+安裝Node.js  https://nodejs.org/en/
+打開VS code 終端機 輸入 npm install -g node-sass less
+
+Tasks.json 設定檔(Ctrl+Shift+B編譯)
+  "version": "2.0.0",
+    
+  "tasks": [
+        
+	{
+            
+	     "label": "echo",
+            
+	     "type": "shell",
+            
+	     "command": "node-sass",
+            
+	     "args": [
+                
+			"scss/test.scss",
+                
+			"css/test.css"
+            
+		     ],
+	}
+
+
+
+
+
