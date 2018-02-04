@@ -48,6 +48,7 @@ border-color：red; //框線顏色
 border-bottom-style:solid; //底線 (top / bottom / left / right)
 border-bottom-color:red; 底線顏色
 border-radius:30px  增添圓角邊框
+box-shadow: 10px 10px 5px #888888;  陰影 (水平，垂直，模糊，顏色)
 
 min-height:100px;段落最小高度
 -------------------------------------------------------
@@ -59,7 +60,25 @@ position: fixed     元素會相對於瀏覽器視窗來定位，頁面捲動，它還是會固定在相同的
 position: absolute  定位是在他所處上層容器的相對位置，它會相對於它的父元素進行定位
 		    畫面在捲動時，該元素還是會隨著頁面捲動
 -------------------------------------------------------
+overflow: auto;     預設會自動使用捲軸
+overflow:visible;   顯示的文字或圖片會直接超出範圍，不使用捲軸
+overflow:hidden;    自動隱藏超出的文字或圖片
+overflow:scroll;    自動產生捲軸
+overflow:inherit;   繼承自父元素的可見性
+-------------------------------------------------------
+2D轉換
 transform:translate(x(橫),y(縱))   2D 橫向移動x距離、縱向移動y距離
+translate()
+rotate()
+scale()
+skew()
+matrix()
+
+轉變
+transition-property		規定設置效果的CSS 屬性的名稱
+transition-duration		規定完成效果需要多少秒或毫秒
+transition-timing-function	定義速度效果的速度曲線
+transition-delay		定義效果何時開始
 -------------------------------------------------------
 <div><span> 基本排版 (可用有顏色的線條看空間是如何)
 

@@ -45,6 +45,8 @@ required 未輸入，不會送出
 <input type=submit/reset name=ok value=確認/取消>
 <input type='button' onclick='history.back()' value='返回''>
 
+<img src="圖片路徑">
+
 <input type=radio name=sex value=male check>
 <input type=radio name=sex value=female>
 
