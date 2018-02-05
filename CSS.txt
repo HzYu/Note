@@ -27,12 +27,6 @@ p{
 </style>
 </head>
 -------------------------------------------------------
-backgroud
-background：blue;//背景顏色
-background-image:url('img/1.jpg');  //背景圖案
-background-repeat:repeat / no-repeat / repeat-x /repeat-y; // 背景圖案不重複 / x-方向重複 / y-方向重複 /x-及y-方向重複
-background-attachment: fixed/scroll;  //當網頁捲動時，背景圖案會固定/捲動
--------------------------------------------------------
 font
 color：blue;//文字顏色
 font-family：標楷體; //文字字型
@@ -52,18 +46,32 @@ box-shadow: 10px 10px 5px #888888;  陰影 (水平，垂直，模糊，顏色)
 
 min-height:100px;段落最小高度
 -------------------------------------------------------
-position
-position: static    不會被特別定位 而是照著瀏覽器預設的配置自動排版在頁面上
-position: relative  基本上和 static 一樣，除非增加了 top right bottom 和 left 屬性
-                    不管這些「相對定位」的元素如何在頁面上移動，不會影響到原本其他元素所在的位置
-position: fixed     元素會相對於瀏覽器視窗來定位，頁面捲動，它還是會固定在相同的位置隨著頁面捲動， top right bottom 和 left 屬性來定位
-position: absolute  定位是在他所處上層容器的相對位置，它會相對於它的父元素進行定位
-		    畫面在捲動時，該元素還是會隨著頁面捲動
+background(背景)
+background-color：blue  	   指定背景的顏色
+background-image:url('img/1.jpg')  背景圖案
+background-repeat(屬性是用來指定背景圖案重不重複)	   
+background-repeat: repeat(預設值)  背景圖案在 x- 及 y-方向重複
+background-repeat: no-repeat       背景圖案不重複
+background-repeat: repeat-x        背景圖案在 x-方向重複
+background-repeat: repeat-y        背景圖案在 y-方向重複
+background-attachment(屬性是用來指定背景圖案是否在螢幕上固定)
+background-attachment: scroll      當網頁捲動時，背景圖案會跟著移動
+background-attachment: fixed       當網頁捲動時，背景圖案固定不動
+background-position(屬性是用來指定背景圖案的位置)
+background-position: center center 圖案正中央
+background-position: 20% 20%       圖案的位置離上面 20% 與離左邊 20% 的地方
 -------------------------------------------------------
-overflow: auto;     預設會自動使用捲軸
-overflow:visible;   顯示的文字或圖片會直接超出範圍，不使用捲軸
+position(屬性制定出要用哪一類的位置)
+position: static(預設值)    元素會被放在預設的地方。 如果 position 的值是被設定為 statics 的話，那 top、bottom、left、和 right 的值就都沒有意義
+position: relative(相對)    元素被放的地方將會與預設的地方有所不同。不同的程度是依照 top、bottom、left、和 right 的值而定
+position: absolute(絕對)    元素會被放在瀏覽器內的某個位置 (依 top、bottom、left、和 right 的值而定)。 當使用者將網頁往下拉時，元素也會跟著改變位置
+position: fixed(固定)  	    元素會被放在瀏覽器內的某個位置 (依 top、bottom、left、和 right 的值而定)。 當使用者將網頁往下拉時，元素的位置不會改變
+-------------------------------------------------------
+overflow(屬性是用來設定當內容放不下時的處理方式)
+overflow: auto;     當內容放不下時，加上捲軸的功能
+overflow:visible;   內容完全呈現，不管放得下放不下
 overflow:hidden;    自動隱藏超出的文字或圖片
-overflow:scroll;    自動產生捲軸
+overflow:scroll;    無論內容放得下放不下，都加入上下捲軸及左右捲軸的功能
 overflow:inherit;   繼承自父元素的可見性
 -------------------------------------------------------
 2D轉換
