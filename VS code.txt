@@ -3,16 +3,20 @@ Angular 5 Snippets
 Auto Close Tag
 
 -----------------------------------
-開啟命令面板 ctrl+shift+p
+開啟命令面板 ctrl+shift+p F1
 
 -----------------------------------
-git
-setting，搜找git
-"git.path": "D:/Git/bin/git.exe",//git.exe 的目錄
+設定 Git
+setting，搜找git(以下為新增設定)
+
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 1000,
+"git.path": "D:/Git/bin/git.exe",   //git.exe 的目錄
 "git.autofetch": true,
 
+使用Git
 要目標git目錄
-打開命令面板 git clone → git@github.com:RatiSmiDB/bootstrap.git → C:\Users\tim40\Desktop\
+打開 F1 命令面板 git clone → git@github.com:RatiSmiDB/bootstrap.git → C:\Users\tim40\Desktop\
 
 -----------------------------------
 sass/scss
@@ -42,7 +46,30 @@ Tasks.json 設定檔(Ctrl+Shift+B編譯)
 		     ],
 	}
 
+-------------------------------------
+自動編譯 SCSS/SASS
+下載 Plug-in(外掛) Live Sass Compiler
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
+setting，搜找 Live Sass Compiler (以下為新增設定)
 
+"liveSassCompile.settings.formats": [ 
+	{
+            
+		"format": "expanded",
+                          
+		"extensionName": ".css",
+                   
+		"savePath": "/css",
+        要儲存 css 的資料夾
+	}
+],
 
-
+"liveSassCompile.settings.generateMap": false,  
+"liveSassCompile.settings.excludeList": [   排除要編譯的scss檔
+		"**/node_modules/**",
+		".vscode/**",
+		"open-iconic/font/css/open-iconic.scss",
+		"open-iconic/font/css/open-iconic-bootstrap.scss",
+		"open-iconic/font/css/open-iconic-foundation.scss"
+],
