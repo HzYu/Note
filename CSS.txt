@@ -28,10 +28,10 @@ p{
 </head>
 -------------------------------------------------------
 font
-color¡Gblue;//¤å¦rÃC¦â
-font-family¡G¼Ð·¢Åé; //¤å¦r¦r«¬
-font-size¡G20pt; //¤å¦r¤j¤p
-font-weight¡G100 / blod  //¼e«×
+color¡Gblue;		¤å¦rÃC¦â
+font-family¡G¼Ð·¢Åé;	¤å¦r¦r«¬
+font-size¡G20pt; 	¤å¦r¤j¤p
+font-weight¡G100	²Ê«×
 text-align¡Gcenter / right /left //¤å¦r¹ï»ô
 -------------------------------------------------------
 border
@@ -66,6 +66,35 @@ position: static(¹w³]­È)    ¤¸¯À·|³Q©ñ¦b¹w³]ªº¦a¤è¡C ¦pªG position ªº­È¬O³Q³]©w¬
 position: relative(¬Û¹ï)    ¤¸¯À³Q©ñªº¦a¤è±N·|»P¹w³]ªº¦a¤è¦³©Ò¤£¦P¡C¤£¦Pªºµ{«×¬O¨Ì·Ó top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w
 position: absolute(µ´¹ï)    ¤¸¯À·|³Q©ñ¦bÂsÄý¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯À¤]·|¸òµÛ§ïÅÜ¦ì¸m
 position: fixed(©T©w)  	    ¤¸¯À·|³Q©ñ¦bÂsÄý¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯Àªº¦ì¸m¤£·|§ïÅÜ
+-------------------------------------------------------
+display¡]³W©w¤¸¯À¸Ó¥Í¦¨®ØªºÃþ«¬¡^
+display : none		Åã¥Ü³o­ÓªF¦è¡A¤£¦ûªÅ¶¡
+*visibility : hidden	Áô§Î¬Ý¤£¨£¡AÁÙ¬O¦³¦ûªÅ¶¡
+--------------------------------------------------------------
+display : inline	¤¸¯À³s¦b¤@°_·|¦b¦P¤@¦æ¡A¤£·|´«¦æ     -
+¥i¥H¥Î						             -
+margin-left  margin-right			       	     -
+padding-left padding-right				     -
+¤£¯à¥Î							     -
+margin-top   margin-bottom  				     -
+padding-top  padding-bottom				     -
+width	     height					     -			 
+background-image					     -
+				     			     -
+display : inline¤¸¯À¤ô¥­¸m¤¤¦b¤÷¤¸¯À¥[¤W text-align : center -			 
+--------------------------------------------------------------
+display : block	       ¤¸¯À·|´«¦æ¡A¼e«×¹w³]·|¼µ¨ì³Ì¤j        -
+¤£ºÞ¬Æ»ò¤¸¯À³£¥i¥H¥Î					     -
+margin padding						     -
+width  height						     -
+background-image					     -
+							     -
+display : block ¤¸¯À¤ô¥­¸m¤¤ ¥[¤W margin : 0 auto            -
+--------------------------------------------------------------
+display : inline-block ¥~­±¬O inline ¡A¸Ì­±¬O block¡A¤¸¯À¤£·|´«¦æ
+¤¸¯À³£¥i¥H¥Î
+¥Î CSS Åý³sµ²¥Î¹Ï¤ùÅã¥Ü´N¬O inline-block ±`¨£ªºÀ³¥Î
+http://blog.xuite.net/vexed/tech/26534492
 -------------------------------------------------------
 overflow(ÄÝ©Ê¬O¥Î¨Ó³]©w·í¤º®e©ñ¤£¤U®Éªº³B²z¤è¦¡)
 overflow: auto;     ·í¤º®e©ñ¤£¤U®É¡A¥[¤W±²¶bªº¥\¯à
