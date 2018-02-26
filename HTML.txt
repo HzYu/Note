@@ -69,3 +69,7 @@ required 未輸入，不會送出
 
 <input type=date/time/week/month/datetimelocal name=birth value=1997/1/1>
 
+-----------------------------------------------------------------------------
+連結以圖片顯示（a連結包住圖片img）
+https://goo.gl/x3oxMA
+<a href="https://www.instagram.com/hz_yu/"><img src="icon/instagram.svg" width="40" class="instagram"/></a>
