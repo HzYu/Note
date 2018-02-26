@@ -1,6 +1,6 @@
-é€£æ¥å¤–éƒ¨æª”æ¡ˆ
+³s±µ¥~³¡ÀÉ®×
 <head>
-<link href="CSSçš„è·¯å¾‘" rel="stylesheet" type="text/css">
+<link href="CSSªº¸ô®|" rel="stylesheet" type="text/css">
 </head>
 
 <head>
@@ -8,146 +8,165 @@
 ------------------------------------------------------
 #id  .class
 
-<p class="file" style=" color:red; font-sizeï¼š20pt; ">
+<p class="file" style=" color:red; font-size¡G20pt; ">
 
 body{
-backgroundï¼šblue;//èƒŒæ™¯é¡è‰²
-background-image:url('img/1.jpg');//èƒŒæ™¯åœ–æ¡ˆ
-text-alignï¼šcenter//å…¨éƒ¨ç½®ä¸­
+background¡Gblue;//­I´ºÃC¦â
+background-image:url('img/1.jpg');//­I´º¹Ï®×
+text-align¡Gcenter//¥ş³¡¸m¤¤
 }
 
 h1{
-colorï¼š#ff0000;//æ–‡å­—é¡è‰²
+color¡G#ff0000;//¤å¦rÃC¦â
 }
 
 p{ 
-  border:#0000FF 5px solid;  //æ¡†ç·šé¡è‰²/ç²—åº¦/å¯¦ç·š
+  border:#0000FF 5px solid;  //®Ø½uÃC¦â/²Ê«×/¹ê½u
 }
 
 </style>
 </head>
 -------------------------------------------------------
 font
-colorï¼šblue;		æ–‡å­—é¡è‰²
-font-familyï¼šæ¨™æ¥·é«”;	æ–‡å­—å­—å‹
-font-sizeï¼š20pt; 	æ–‡å­—å¤§å°
-font-weightï¼š100	ç²—åº¦
-text-alignï¼šcenter / right /left //æ–‡å­—å°é½Š
+color¡Gblue;		¤å¦rÃC¦â
+font-family¡G¼Ğ·¢Åé;	¤å¦r¦r«¬
+font-size¡G20pt; 	¤å¦r¤j¤p
+font-weight¡G100	²Ê«×
+text-align¡Gcenter / right /left //¤å¦r¹ï»ô
 -------------------------------------------------------
 border
-border:#0000FF 5px solid; //é¡è‰² å¤§å° å¯¦ç·š(ç¸®å¯«)
-border-styleï¼šsolid / dashed / double /dotted; // å¯¦ç·š / è™›ç·š / é›™ç·š / é»ç·š
-border-widthï¼š9px /thin / medium / thick ; // æ¡†ç·šç²—åº¦ / è–„ / ä¸­ç­‰ / åš
-border-colorï¼šred; //æ¡†ç·šé¡è‰²
-border-bottom-style:solid; //åº•ç·š (top / bottom / left / right)
-border-bottom-color:red; åº•ç·šé¡è‰²
-border-radius:30px  å¢æ·»åœ“è§’é‚Šæ¡†
-box-shadow: 10px 10px 5px #888888;  é™°å½± (æ°´å¹³ï¼Œå‚ç›´ï¼Œæ¨¡ç³Šï¼Œé¡è‰²)
+border:#0000FF 5px solid; //ÃC¦â ¤j¤p ¹ê½u(ÁY¼g)
+border-style¡Gsolid / dashed / double /dotted; // ¹ê½u / µê½u / Âù½u / ÂI½u
+border-width¡G9px /thin / medium / thick ; // ®Ø½u²Ê«× / Á¡ / ¤¤µ¥ / «p
+border-color¡Gred; //®Ø½uÃC¦â
+border-bottom-style:solid; //©³½u (top / bottom / left / right)
+border-bottom-color:red; ©³½uÃC¦â
+border-radius:30px  ¼W²K¶ê¨¤Ãä®Ø
+box-shadow: 10px 10px 5px #888888;  ³±¼v (¤ô¥­¡A««ª½¡A¼Ò½k¡AÃC¦â)
 
-min-height:100px;æ®µè½æœ€å°é«˜åº¦
+min-height:100px;¬q¸¨³Ì¤p°ª«×
 -------------------------------------------------------
-background(èƒŒæ™¯)
-background-colorï¼šblue  	   æŒ‡å®šèƒŒæ™¯çš„é¡è‰²
-background-image:url('img/1.jpg')  èƒŒæ™¯åœ–æ¡ˆ
-background-repeat(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆé‡ä¸é‡è¤‡)	   
-background-repeat: repeat(é è¨­å€¼)  èƒŒæ™¯åœ–æ¡ˆåœ¨ x- åŠ y-æ–¹å‘é‡è¤‡
-background-repeat: no-repeat       èƒŒæ™¯åœ–æ¡ˆä¸é‡è¤‡
-background-repeat: repeat-x        èƒŒæ™¯åœ–æ¡ˆåœ¨ x-æ–¹å‘é‡è¤‡
-background-repeat: repeat-y        èƒŒæ™¯åœ–æ¡ˆåœ¨ y-æ–¹å‘é‡è¤‡
-background-attachment(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆæ˜¯å¦åœ¨è¢å¹•ä¸Šå›ºå®š)
-background-attachment: scroll      ç•¶ç¶²é æ²å‹•æ™‚ï¼ŒèƒŒæ™¯åœ–æ¡ˆæœƒè·Ÿè‘—ç§»å‹•
-background-attachment: fixed       ç•¶ç¶²é æ²å‹•æ™‚ï¼ŒèƒŒæ™¯åœ–æ¡ˆå›ºå®šä¸å‹•
-background-position(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆçš„ä½ç½®)
-background-position: center center åœ–æ¡ˆæ­£ä¸­å¤®
-background-position: 20% 20%       åœ–æ¡ˆçš„ä½ç½®é›¢ä¸Šé¢ 20% èˆ‡é›¢å·¦é‚Š 20% çš„åœ°æ–¹
+background(­I´º)
+background-color¡Gblue  	   «ü©w­I´ºªºÃC¦â
+background-image:url('img/1.jpg')  ­I´º¹Ï®×
+background-repeat(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×­«¤£­«½Æ)	   
+background-repeat: repeat(¹w³]­È)  ­I´º¹Ï®×¦b x- ¤Î y-¤è¦V­«½Æ
+background-repeat: no-repeat       ­I´º¹Ï®×¤£­«½Æ
+background-repeat: repeat-x        ­I´º¹Ï®×¦b x-¤è¦V­«½Æ
+background-repeat: repeat-y        ­I´º¹Ï®×¦b y-¤è¦V­«½Æ
+background-attachment(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×¬O§_¦b¿Ã¹õ¤W©T©w)
+background-attachment: scroll      ·íºô­¶±²°Ê®É¡A­I´º¹Ï®×·|¸òµÛ²¾°Ê
+background-attachment: fixed       ·íºô­¶±²°Ê®É¡A­I´º¹Ï®×©T©w¤£°Ê
+background-position(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×ªº¦ì¸m)
+background-position: center center ¹Ï®×¥¿¤¤¥¡
+background-position: 20% 20%       ¹Ï®×ªº¦ì¸mÂ÷¤W­± 20% »PÂ÷¥ªÃä 20% ªº¦a¤è
 -------------------------------------------------------
-position(å±¬æ€§åˆ¶å®šå‡ºè¦ç”¨å“ªä¸€é¡çš„ä½ç½®)
-position: static(é è¨­å€¼)    å…ƒç´ æœƒè¢«æ”¾åœ¨é è¨­çš„åœ°æ–¹ã€‚ å¦‚æœ position çš„å€¼æ˜¯è¢«è¨­å®šç‚º statics çš„è©±ï¼Œé‚£ topã€bottomã€leftã€å’Œ right çš„å€¼å°±éƒ½æ²’æœ‰æ„ç¾©
-position: relative(ç›¸å°)    å…ƒç´ è¢«æ”¾çš„åœ°æ–¹å°‡æœƒèˆ‡é è¨­çš„åœ°æ–¹æœ‰æ‰€ä¸åŒã€‚ä¸åŒçš„ç¨‹åº¦æ˜¯ä¾ç…§ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š
-position: absolute(çµ•å°)    å…ƒç´ æœƒè¢«æ”¾åœ¨ç€è¦½å™¨å…§çš„æŸå€‹ä½ç½® (ä¾ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š)ã€‚ ç•¶ä½¿ç”¨è€…å°‡ç¶²é å¾€ä¸‹æ‹‰æ™‚ï¼Œå…ƒç´ ä¹Ÿæœƒè·Ÿè‘—æ”¹è®Šä½ç½®
-position: fixed(å›ºå®š)  	    å…ƒç´ æœƒè¢«æ”¾åœ¨ç€è¦½å™¨å…§çš„æŸå€‹ä½ç½® (ä¾ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š)ã€‚ ç•¶ä½¿ç”¨è€…å°‡ç¶²é å¾€ä¸‹æ‹‰æ™‚ï¼Œå…ƒç´ çš„ä½ç½®ä¸æœƒæ”¹è®Š
+position(Äİ©Ê¨î©w¥X­n¥Î­ş¤@Ãşªº¦ì¸m)
+position: static(¹w³]­È)    ¤¸¯À·|³Q©ñ¦b¹w³]ªº¦a¤è¡C ¦pªG position ªº­È¬O³Q³]©w¬° statics ªº¸Ü¡A¨º top¡Bbottom¡Bleft¡B©M right ªº­È´N³£¨S¦³·N¸q
+position: relative(¬Û¹ï)    ¤¸¯À³Q©ñªº¦a¤è±N·|»P¹w³]ªº¦a¤è¦³©Ò¤£¦P¡C¤£¦Pªºµ{«×¬O¨Ì·Ó top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w
+position: absolute(µ´¹ï)    ¤¸¯À·|³Q©ñ¦bÂsÄı¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯À¤]·|¸òµÛ§ïÅÜ¦ì¸m
+position: fixed(©T©w)  	    ¤¸¯À·|³Q©ñ¦bÂsÄı¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯Àªº¦ì¸m¤£·|§ïÅÜ
 -------------------------------------------------------
-displayï¼ˆè¦å®šå…ƒç´ è©²ç”Ÿæˆæ¡†çš„é¡å‹ï¼‰
-display : none		é¡¯ç¤ºé€™å€‹æ±è¥¿ï¼Œä¸ä½”ç©ºé–“
-*visibility : hidden	éš±å½¢çœ‹ä¸è¦‹ï¼Œé‚„æ˜¯æœ‰ä½”ç©ºé–“
+display¡]³W©w¤¸¯À¸Ó¥Í¦¨®ØªºÃş«¬¡^
+display : none		Åã¥Ü³o­ÓªF¦è¡A¤£¦ûªÅ¶¡
+*visibility : hidden	Áô§Î¬İ¤£¨£¡AÁÙ¬O¦³¦ûªÅ¶¡
 --------------------------------------------------------------
-display : inline	å…ƒç´ é€£åœ¨ä¸€èµ·æœƒåœ¨åŒä¸€è¡Œï¼Œä¸æœƒæ›è¡Œ Â  Â  Â   -
-å¯ä»¥ç”¨						 Â  Â  Â  Â    -
+display : inline	¤¸¯À³s¦b¤@°_·|¦b¦P¤@¦æ¡A¤£·|´«¦æ     -
+¥i¥H¥Î						             -
 margin-left  margin-right			       	     -
 padding-left padding-right				     -
-ä¸èƒ½ç”¨ Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â   -
+¤£¯à¥Î							     -
 margin-top   margin-bottom  				     -
 padding-top  padding-bottom				     -
 width	     height					     -			 
 background-image					     -
 				     			     -
-display : inlineå…ƒç´ æ°´å¹³ç½®ä¸­åœ¨çˆ¶å…ƒç´ åŠ ä¸Š text-align : center   -			 
+display : inline¤¸¯À¤ô¥­¸m¤¤¦b¤÷¤¸¯À¥[¤W text-align : center -			 
 --------------------------------------------------------------
-display : block	 Â  Â  Â  å…ƒç´ æœƒæ›è¡Œï¼Œå¯¬åº¦é è¨­æœƒæ’åˆ°æœ€å¤§ Â  Â  Â  Â    -
-ä¸ç®¡ç”šéº¼å…ƒç´ éƒ½å¯ä»¥ç”¨					     -
+display : block	       ¤¸¯À·|´«¦æ¡A¼e«×¹w³]·|¼µ¨ì³Ì¤j        -
+¤£ºŞ¬Æ»ò¤¸¯À³£¥i¥H¥Î					     -
 margin padding						     -
 width  height						     -
 background-image					     -
 							     -
-display : block å…ƒç´ æ°´å¹³ç½®ä¸­ åŠ ä¸Š margin : 0 auto Â  Â  Â  Â  Â    -
+display : block ¤¸¯À¤ô¥­¸m¤¤ ¥[¤W margin : 0 auto            -
 --------------------------------------------------------------
-display : inline-block å¤–é¢æ˜¯ inline ï¼Œè£¡é¢æ˜¯ blockï¼Œå…ƒç´ ä¸æœƒæ›è¡Œ
-å…ƒç´ éƒ½å¯ä»¥ç”¨
-ç”¨ CSS è®“é€£çµç”¨åœ–ç‰‡é¡¯ç¤ºå°±æ˜¯ inline-block å¸¸è¦‹çš„æ‡‰ç”¨
-http://blog.xuite.net/vexed/tech/26534492
+display : inline-block ¥~­±¬O inline ¡A¸Ì­±¬O block¡A¤¸¯À¤£·|´«¦æ
+¤¸¯À³£¥i¥H¥Î
+¥Î CSS Åı³sµ²¥Î¹Ï¤ùÅã¥Ü´N¬O inline-block ±`¨£ªºÀ³¥Î
+https://goo.gl/bNqTmi 
+https://goo.gl/x3oxMA 	<a>¥]¦í<img>
 -------------------------------------------------------
-overflow(å±¬æ€§æ˜¯ç”¨ä¾†è¨­å®šç•¶å…§å®¹æ”¾ä¸ä¸‹æ™‚çš„è™•ç†æ–¹å¼)
-overflow: auto;     ç•¶å…§å®¹æ”¾ä¸ä¸‹æ™‚ï¼ŒåŠ ä¸Šæ²è»¸çš„åŠŸèƒ½
-overflow:visible;   å…§å®¹å®Œå…¨å‘ˆç¾ï¼Œä¸ç®¡æ”¾å¾—ä¸‹æ”¾ä¸ä¸‹
-overflow:hidden;    è‡ªå‹•éš±è—è¶…å‡ºçš„æ–‡å­—æˆ–åœ–ç‰‡
-overflow:scroll;    ç„¡è«–å…§å®¹æ”¾å¾—ä¸‹æ”¾ä¸ä¸‹ï¼Œéƒ½åŠ å…¥ä¸Šä¸‹æ²è»¸åŠå·¦å³æ²è»¸çš„åŠŸèƒ½
-overflow:inherit;   ç¹¼æ‰¿è‡ªçˆ¶å…ƒç´ çš„å¯è¦‹æ€§
+overflow(Äİ©Ê¬O¥Î¨Ó³]©w·í¤º®e©ñ¤£¤U®Éªº³B²z¤è¦¡)
+overflow: auto;     ·í¤º®e©ñ¤£¤U®É¡A¥[¤W±²¶bªº¥\¯à
+overflow:visible;   ¤º®e§¹¥ş§e²{¡A¤£ºŞ©ñ±o¤U©ñ¤£¤U
+overflow:hidden;    ¦Û°ÊÁôÂÃ¶W¥Xªº¤å¦r©Î¹Ï¤ù
+overflow:scroll;    µL½×¤º®e©ñ±o¤U©ñ¤£¤U¡A³£¥[¤J¤W¤U±²¶b¤Î¥ª¥k±²¶bªº¥\¯à
+overflow:inherit;   Ä~©Ó¦Û¤÷¤¸¯Àªº¥i¨£©Ê
 -------------------------------------------------------
-2Dè½‰æ›
-transform:translate(x(æ©«),y(ç¸±))   2D æ©«å‘ç§»å‹•xè·é›¢ã€ç¸±å‘ç§»å‹•yè·é›¢
+2DÂà´«
+transform:translate(x(¾î),y(Áa))   2D ¾î¦V²¾°Êx¶ZÂ÷¡BÁa¦V²¾°Êy¶ZÂ÷
 translate()
 rotate()
 scale()
 skew()
 matrix()
 
-è½‰è®Š
-transition-property		è¦å®šè¨­ç½®æ•ˆæœçš„CSS å±¬æ€§çš„åç¨±
-transition-duration		è¦å®šå®Œæˆæ•ˆæœéœ€è¦å¤šå°‘ç§’æˆ–æ¯«ç§’
-transition-timing-function	å®šç¾©é€Ÿåº¦æ•ˆæœçš„é€Ÿåº¦æ›²ç·š
-transition-delay		å®šç¾©æ•ˆæœä½•æ™‚é–‹å§‹
+ÂàÅÜ
+transition-property		³W©w³]¸m®ÄªGªºCSS Äİ©Êªº¦WºÙ
+transition-duration		³W©w§¹¦¨®ÄªG»İ­n¦h¤Ö¬í©Î²@¬í
+transition-timing-function	©w¸q³t«×®ÄªGªº³t«×¦±½u
+transition-delay		©w¸q®ÄªG¦ó®É¶}©l
 -------------------------------------------------------
-<div><span> åŸºæœ¬æ’ç‰ˆ (å¯ç”¨æœ‰é¡è‰²çš„ç·šæ¢çœ‹ç©ºé–“æ˜¯å¦‚ä½•)
+Animation.CSS	·L°Êµe
+http://blog.infographics.tw/2016/11/animate-css/   	 Animation ¤¶²Ğ
+https://daneden.github.io/animate.css/ 		  	 Animation DEMO
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> ¤Ş¤J<head>
+class="animated infinite(µL­­´`Àô) bounce(ºØÃş-¼u¸õ)"
+animation-duration:5s             ±±¨î³æ¦¸°Êµe®É¶¡ªø«×
+animation-iteration-count:3       ±±¨î°Êµe­«¼½ªº¦¸¼Æ
+--------------------------------------------------------
+Animation.CSS	·L°Êµe
+http://www.w3school.com.cn/cssref/pr_animation.asp	 w3school ¤¶²Ğ
+animation: name duration timing-function delay iteration-count direction;
+animation-name			¿ï¾Ü¾¹¦WºÙ
+animation-duration		ªá¶Oªº®É¶¡
+animation-timing-function	³t«×¦±½u
+animation-delay			°Êµe¶}©l«e©µ¿ğ
+animation-iteration-count	¼½©ñ¦¸¼Æ
+animation-direction		½ü¬y¤Ï¦V¼½©ñ°Êµe
+-------------------------------------------------------
+<div><span> °ò¥»±Æª© (¥i¥Î¦³ÃC¦âªº½u±ø¬İªÅ¶¡¬O¦p¦ó)
 
 body{
-text-align:center; //æ•´é«”ç½®ä¸­
+text-align:center; //¾ãÅé¸m¤¤
 width:100%;
 margin:0;
 }
 
 div{
-width:350px;    //ä¸æœƒéš¨è€…æ¯”ä¾‹å¤§å°æ”¾å¤§
+width:350px;    //¤£·|ÀHªÌ¤ñ¨Ò¤j¤p©ñ¤j
 margin-right:auto;
 margin-left:auto;
 }
 
-padding:15px;  //å››å€‹é‚ŠåŒæ¨£å€¼
-padding:15px(ä¸Šä¸‹) 20px(å·¦å³);  //å…§éƒ¨è·é›¢
-padding:(ä¸Š)(å³)(ä¸‹)(å·¦);
+padding:15px;  //¥|­ÓÃä¦P¼Ë­È
+padding:15px(¤W¤U) 20px(¥ª¥k);  //¤º³¡¶ZÂ÷
+padding:(¤W)(¥k)(¤U)(¥ª);
 
-margin:15px;  //å››å€‹é‚ŠåŒæ¨£å€¼
-margin:15px(ä¸Šä¸‹) 20px(å·¦å³);  //å¤–éƒ¨è·é›¢
-margin:(ä¸Š)(å³)(ä¸‹)(å·¦);
+margin:15px;  //¥|­ÓÃä¦P¼Ë­È
+margin:15px(¤W¤U) 20px(¥ª¥k);  //¥~³¡¶ZÂ÷
+margin:(¤W)(¥k)(¤U)(¥ª);
 
-position:relative ä½ç½®çš„ç›¸å°ä½ç½®   ç›¸å°ä½ç½®ï¼šæ–‡ç« æ’åˆ°å“ªå°±å¾é‚£é‚Šé–‹å§‹
-top:20px;  // right / bottom å¯æ›´æ”¹divä½ç½®
+position:relative ¦ì¸mªº¬Û¹ï¦ì¸m   ¬Û¹ï¦ì¸m¡G¤å³¹±Æ¨ì­ş´N±q¨ºÃä¶}©l
+top:20px;  // right / bottom ¥i§ó§ïdiv¦ì¸m
 left:20px;
 
-*display: inline-block; æ‰€æœ‰æ–‡å­—æˆ–åœ–ç‰‡å‡ä¸æ›è¡Œï¼Œä¹Ÿå°±æ˜¯å…¨éƒ¨éƒ½æœƒæ˜¯åŒä¸€è¡Œ
-                       è‡ªå‹•æµ®å‹•æ°´å¹³æ’åˆ—ï¼Œä¸é ˆé¡å¤–åŠ clear()
+*display: inline-block; ©Ò¦³¤å¦r©Î¹Ï¤ù§¡¤£´«¦æ¡A¤]´N¬O¥ş³¡³£·|¬O¦P¤@¦æ
+                       ¦Û°Ê¯B°Ê¤ô¥­±Æ¦C¡A¤£¶·ÃB¥~¥[clear()
 width: 200px;
 height: 100px;
-padding:80px 50px;  //åˆ©ç”¨paddingå’Œmarginä¾†ç§»åº§æ¨™ä½ç½®ï¼Œmarginå¯ç”¨è² çš„ï¼Œpaddingä¸è¡Œ
+padding:80px 50px;  //§Q¥Îpadding©Mmargin¨Ó²¾®y¼Ğ¦ì¸m¡Amargin¥i¥Î­tªº¡Apadding¤£¦æ
 margin-left:-500px; 
 margin-top:-300px;
 
