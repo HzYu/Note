@@ -27,12 +27,17 @@ p{
 </style>
 </head>
 -------------------------------------------------------
+http://html-css-js.com/css/generator/box-shadow/ 模擬樣式網站
+-------------------------------------------------------
+
 font
 color：blue;		文字顏色
 font-family：標楷體;	文字字型
 font-size：20pt; 	文字大小
+line-height: 24px;　　　文字行距
+letter-spacing: 3px;	文字間距
 font-weight：100	粗度
-text-align：center / right /left //文字對齊
+text-align：center	文字對齊
 -------------------------------------------------------
 border
 border:#0000FF 5px solid; //顏色 大小 實線(縮寫)
