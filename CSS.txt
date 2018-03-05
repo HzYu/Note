@@ -123,23 +123,44 @@ transition-duration		規定完成效果需要多少秒或毫秒
 transition-timing-function	定義速度效果的速度曲線
 transition-delay		定義效果何時開始
 -------------------------------------------------------
-Animation.CSS	微動畫
-http://blog.infographics.tw/2016/11/animate-css/   	 Animation 介紹
-https://daneden.github.io/animate.css/ 		  	 Animation DEMO
+Animation.CSS	微動畫(外掛)
+*http://blog.infographics.tw/2016/11/animate-css/   	 Animation 介紹
+*https://daneden.github.io/animate.css/ 		 Animation DEMO
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 引入<head>
-class="animated infinite(無限循環) bounce(種類-彈跳)"
+class="animated(樣式選擇器) 5s(時間長度) infinite(無限循環) bounce(種類-彈跳)"
 animation-duration:5s             控制單次動畫時間長度
 animation-iteration-count:3       控制動畫重播的次數
 --------------------------------------------------------
 Animation.CSS	微動畫
-http://www.w3school.com.cn/cssref/pr_animation.asp	 w3school 介紹
-animation: name duration timing-function delay iteration-count direction;
+*http://www.w3school.com.cn/cssref/pr_animation.asp	 w3school 介紹
+animation: name duration | timing-function | delay | iteration-count | direction;
 animation-name			選擇器名稱
 animation-duration		花費的時間
 animation-timing-function	速度曲線
 animation-delay			動畫開始前延遲
 animation-iteration-count	播放次數
 animation-direction		輪流反向播放動畫
+-------------------------------------------------------
+keyframe	動畫效果(@keyframes規則 可以創建動畫)
+*http://www.w3school.com.cn/cssref/pr_keyframes.asp	 w3school 介紹
+*https://dotblogs.com.tw/knightzone/2013/09/07/116716	 使用keyframe與animation 製作動畫
+瀏覽器支援
+@-moz-keyframes mymove 		 Firefox 
+@-webkit-keyframes mymove 	 Safari 和 Chrome
+@-o-keyframes mymove 		 Opera 
+0%	動畫開始時間
+100%	動畫結束時間
+div{
+     animation:mymove(樣式選擇器) 5s(時間長度) infinite(無限循環);
+     -webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+}
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+    0%   {top:0px;}
+    25%  {top:200px;}
+    75%  {top:50px}
+    100% {top:100px;}
+}
 -------------------------------------------------------
 <div><span> 基本排版 (可用有顏色的線條看空間是如何)
 
