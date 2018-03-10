@@ -1,7 +1,30 @@
 外掛
 Angular 5 Snippets
 Auto Close Tag
-
+Auto Rename Tag
+AutoFileName
+Beautify 
+Beautify css/sass/scss/less
+Bootstrap 3 Snippets
+Chinese Translation 
+Debugger for Chrome
+Git History
+HTML CSS Support
+HTML Snippets
+Indent-Rainbow
+IntelliSense for CSS class names in HTML
+JavaScript(ES6) code snippets
+jQuery Code Snippets
+Live Sass Compiler
+Live Server
+mssql 
+npm
+Open in Browser
+PHP Debug
+PHP IntelliSense
+Preview on web sever
+SCSS intelliSense
+vscode-icons
 -----------------------------------
 開啟命令面板 ctrl+shift+p F1
 
@@ -60,8 +83,7 @@ setting，搜找 Live Sass Compiler (以下為新增設定)
                           
 		"extensionName": ".css",
                    
-		"savePath": "/css",
-        要儲存 css 的資料夾
+		"savePath": "/css",    要儲存 css 的資料夾
 	}
 ],
 
@@ -73,3 +95,47 @@ setting，搜找 Live Sass Compiler (以下為新增設定)
 		"open-iconic/font/css/open-iconic-bootstrap.scss",
 		"open-iconic/font/css/open-iconic-foundation.scss"
 ],
+-------------------------------------------
+目前使用者設定（2018.3.10）
+{
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 1000,
+"git.path": "D:/Git/bin/git.exe",   //git.exe 的目錄
+"git.autofetch": true,
+
+"workbench.iconTheme": "vscode-icons",
+
+"liveSassCompile.settings.formats": [ 
+	{
+            
+		"format": "expanded",
+                          
+		"extensionName": ".css",
+                   
+		"savePath": "/css",    要儲存 css 的資料夾
+	}
+],
+"liveSassCompile.settings.generateMap": false,  
+"liveSassCompile.settings.excludeList": [   排除要編譯的scss檔
+		"**/node_modules/**",
+		".vscode/**",
+		"open-iconic/font/css/open-iconic.scss",
+		"open-iconic/font/css/open-iconic-bootstrap.scss",
+		"open-iconic/font/css/open-iconic-foundation.scss"
+],
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
