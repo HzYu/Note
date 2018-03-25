@@ -68,7 +68,7 @@ background-repeat: repeat-x        背景圖案在 x-方向重複
 background-repeat: repeat-y        背景圖案在 y-方向重複
 background-attachment(屬性是用來指定背景圖案是否在螢幕上固定)
 background-attachment: scroll      當網頁捲動時，背景圖案會跟著移動
-background-attachment: fixed       當網頁捲動時，背景圖案固定不動
+background-attachment: fixed       當網頁捲動時，背景圖案固定不動(如需圖片隨著Div大小縮放 這行不用)
 background-position(屬性是用來指定背景圖案的位置)
 background-position: center center 圖案正中央
 background-position: 20% 20%       圖案的位置離上面 20% 與離左邊 20% 的地方
