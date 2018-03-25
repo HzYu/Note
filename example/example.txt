@@ -1,0 +1,111 @@
+HTML+CSS
+---------
+HTML <head>
+<head>
+      <title>XXXXX</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">     
+      <!-- Bootstrap CSS CDN-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--import CSS-->
+      <link href="css/main.css" rel="stylesheet" type="text/css">
+      <!--import JS-->
+      <script src="JS.js"></script>
+      <!--import font style-->
+      <!--Animate.min.css-->    
+</head>
+---------
+垂直線
+<html>
+ <p class="vertical">
+
+<SCSS>
+.vertical{          
+        position: absolute;
+        border-left: white 3px solid;
+        left: 50%;
+        z-index: 1;
+        height: 100%;
+        width: 50%;
+    }
+---------------------------------------------------------
+Slider img
+<html>
+<!--Full img carousel-->
+<div class="Full_img">
+    <!--slider img-->
+    <ul class="Full_img_slider">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<SCSS>
+body , html{
+    width: 100%;
+    height: 100%;
+}
+.Full_img{
+width: 50%;
+height: 50%;
+//position: relative;
+overflow-x: hidden;     //隱藏超出版面的圖片 3張100%圖片平行
+    .vertical{          //垂直線
+        position: absolute;
+        border-left: white 3px solid;
+        left: 50%;
+        z-index: 1;
+        height: 100%;
+        width: 50%;
+    }
+    .Full_img_slider{
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        width: 300%;
+        height: 100%;
+        animation: slide 25s linear infinite;   //特效動畫樣式
+        li{
+            list-style: none;
+            position: relative;
+            width: 33.33%;
+            height: 100%;
+            float: left;  //讓三張文字圖片變平行  
+        }
+        li:nth-child(1){        
+            background-image: url(../img/cafe1.jpg);
+            background-position: center top;
+        //  background-attachment: fixed;    當網頁捲動 圖片不動 ， 如需圖片隨著Div大小縮放 這行不用 並且加 background-size: 100% 100%
+            background-size: 100% 100%;      
+        }
+        li:nth-child(2){
+            background-image: url(../img/cafe2.jpg);
+            background-position: center top;
+        //  background-attachment: fixed;    當網頁捲動 圖片不動 ， 如需圖片隨著Div大小縮放 這行不用 並且加 background-size: 100% 100%
+            background-size: 100% 100%;       
+        }
+        li:nth-child(3){
+            background-image: url(../img/cafe3.jpg);
+            background-position: center top;
+        //  background-attachment: fixed;    當網頁捲動 圖片不動 ， 如需圖片隨著Div大小縮放 這行不用   並且加 background-size: 100% 100%
+            background-size: 100% 100%;    
+        }
+        /*slide 滑動特效 */
+        @keyframes slide{           
+            0%  {left: 0%; }
+            10% {left: 0%; }
+            20% {left: -100%; }
+            30%  {left: -100%;}
+            40%{left: -100%;}
+            50% {left: -200%;}
+            60%{left: -200%;}
+            70% {left: -100%; }
+            80% {left: -100%; }
+            90%{left: 0%;}
+            100% {left: 0%; }           
+        }           
+    }
+}
+
+
