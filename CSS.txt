@@ -37,6 +37,12 @@ line-height: 24px;　　　文字行距
 letter-spacing: 3px;	文字間距
 font-weight：100	粗度
 text-align：center	文字對齊
+-----------
+文字單位
+1em = 16px
+1.5em =24px
+*http://pxtoem.com/	px em 轉換器
+*https://goo.gl/tn79oz  px em rem 說明
 -------------------------------------------------------
 border(框線)
 border:#0000FF 5px solid; //顏色 大小 實線(縮寫)
@@ -82,6 +88,7 @@ position: fixed(固定)  	    元素會被放在瀏覽器內的某個位置 (依 top、bottom、left
 display（規定元素該生成框的類型）
 display : none		顯示這個東西，不佔空間
 *visibility : hidden	隱形看不見，還是有佔空間
+*http://www.zhangxinxu.com/wordpress/2012/02/css-overflow-hidden-visibility-hidden-disabled-use/	元素隱藏
 --------------------------------------------------------------
 display : inline	元素連在一起會在同一行，不會換行     -
 可以用						             -
@@ -118,6 +125,18 @@ overflow:inherit;   繼承自父元素的可見性
 -------------------------------------------------------
 z-index（設定元素的堆疊順序 高數字會在低數字的前面）
 z-index:-1	可為負數
+-------------------------------------------------------
+max-height:50px;	最大高度限制50px
+max-width:200px		最大寬度限制200px
+-------------------------------------------------------
+max-width 表示這個數字以下（包含）的都適用。
+min-width 表示這個數字以上（包含）的都適用
+@media (max-width: 700px) {	700px以下適用
+}
+@media (min-width: 700px) {	700px以上適用
+}
+@media (min-width: 400px) and (max-width: 900px) {	大於400px 但小於900px
+}
 -------------------------------------------------------
 2D轉換
 transform:translate(x(橫),y(縱))   2D 橫向移動x距離、縱向移動y距離
@@ -171,6 +190,35 @@ div{
     75%  {top:50px}
     100% {top:100px;}
 }
+-------------------------------------------------------
+RWD
+用於規定裝置的的結構規則
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">	
+方便圖片按照螢幕寬度的自動縮放
+img {
+     height: auto;
+     max-width: 100%;
+}
+
+// Media Query ，也就是當寬度 < 768 px 時將載入下面這段 CSS :
+ @media only screen and (max-width: 768px) {
+     //CSS的內容
+     ....
+}
+
+// Media Query ，也就是當寬度 < 480 px 時將載入下面這段 CSS :
+ @media only screen and (max-width: 480px) {
+     //CSS的內容
+     ....
+}
+
+// Media Query ，也就是當寬度 < 320 px 時將載入下面這段 CSS :
+ @media only screen and (max-width: 320px) {
+     //CSS的內容
+     ....
+}
+
+
 -------------------------------------------------------
 <div><span> 基本排版 (可用有顏色的線條看空間是如何)
 
