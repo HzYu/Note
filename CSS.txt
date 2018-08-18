@@ -1,4 +1,5 @@
 連接外部檔案
+*CSS網頁無法更新 ctrl + f5 強制重新整理
 <head>
 <link href="CSS的路徑" rel="stylesheet" type="text/css">
 </head>
