@@ -6,6 +6,8 @@ git add (a.txt) 新增a.txt特定資料
 
 git commit -m"敘述檔案說明" commit資料暫存區
 
+git reset HEAD <file>  取消commit
+
 git push  把暫存區的資料 上傳到GitHub
 
 git rm (a.txt) 刪除a.txt特定資料
