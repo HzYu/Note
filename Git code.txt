@@ -13,3 +13,7 @@ git push  把暫存區的資料 上傳到GitHub
 git rm (a.txt) 刪除a.txt特定資料
 
 git rm -r (File) 刪除資料夾全部的資料
+
+git branch 查看分支列表
+
+git checkout master 切換分支
