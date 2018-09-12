@@ -1,0 +1,26 @@
+pwd 顯示目前的目錄路徑
+ls 檔案目錄
+ls -a 顯示檔案目錄跟隱藏檔
+ls -all 列出檔案全部詳細資料
+mkdir xxx 建立資料夾
+touch xxx 新增檔案
+date 年月日 時間
+date -u 年月日 美國時間
+cal 月曆
+rm xxx 刪除檔案
+rm -rf xxx 刪除資料夾
+cp xxx zzz 複製xxx為zzz
+mv xxx zzz 移動xxx為zzz
+man cal cal指令說明
+clear 清除資料
+cat xxx 看xxx內容
+chmod +r(-x) xxx 更改檔案權限
+chmod 777 xxx 權限全開(4 2 1)
+nano xxx 編輯文件
+sudo xxx 取得最高權限
+sh xxx 執行檔案
+
+sudo apt-get install git 安裝git
+sudo apt-get install docker 安裝docker
+sudo docker pull centos
+sudo docker run -it centos:lastest bash
