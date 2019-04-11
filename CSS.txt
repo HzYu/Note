@@ -1,7 +1,7 @@
-³s±µ¥~³¡ÀÉ®×
-*CSSºô­¶µLªk§ó·s ctrl + f5 ±j¨î­«·s¾ã²z
+é€£æ¥å¤–éƒ¨æª”æ¡ˆ
+*CSSç¶²é ç„¡æ³•æ›´æ–° ctrl + f5 å¼·åˆ¶é‡æ–°æ•´ç†
 <head>
-<link href="CSSªº¸ô®|" rel="stylesheet" type="text/css">
+<link href="CSSçš„è·¯å¾‘" rel="stylesheet" type="text/css">
 </head>
 
 <head>
@@ -9,186 +9,193 @@
 ------------------------------------------------------
 #id  .class
 
-<p class="file" style=" color:red; font-size¡G20pt; ">
+<p class="file" style=" color:red; font-sizeï¼š20pt; ">
 
 body{
-background¡Gblue;//­I´ºÃC¦â
-background-image:url('img/1.jpg');//­I´º¹Ï®×
-text-align¡Gcenter//¥ş³¡¸m¤¤
+backgroundï¼šblue;//èƒŒæ™¯é¡è‰²
+background-image:url('img/1.jpg');//èƒŒæ™¯åœ–æ¡ˆ
+text-alignï¼šcenter//å…¨éƒ¨ç½®ä¸­
 }
 
 h1{
-color¡G#ff0000;//¤å¦rÃC¦â
+colorï¼š#ff0000;//æ–‡å­—é¡è‰²
 }
 
 p{ 
-  border:#0000FF 5px solid;  //®Ø½uÃC¦â/²Ê«×/¹ê½u
+  border:#0000FF 5px solid;  //æ¡†ç·šé¡è‰²/ç²—åº¦/å¯¦ç·š
 }
 
 </style>
 </head>
 -------------------------------------------------------
-http://html-css-js.com/css/generator/box-shadow/ ¼ÒÀÀ¼Ë¦¡ºô¯¸
+http://html-css-js.com/css/generator/box-shadow/ æ¨¡æ“¬æ¨£å¼ç¶²ç«™
 -------------------------------------------------------
-font(¤å¦r)
-color¡Gblue;		¤å¦rÃC¦â
-font-family¡G¼Ğ·¢Åé;	¤å¦r¦r«¬
-font-size¡G20pt; 	¤å¦r¤j¤p
-line-height: 24px;¡@¡@¡@¤å¦r¦æ¶Z
-letter-spacing: 3px;	¤å¦r¶¡¶Z
-font-weight¡G100	²Ê«×
-text-align¡Gcenter	¤å¦r¹ï»ô
------------
-¤å¦r³æ¦ì
+font_text(æ–‡å­—)
+colorï¼šblue;		æ–‡å­—é¡è‰²
+font-sizeï¼š20pt; 	æ–‡å­—å¤§å°
+font-familyï¼šæ¨™æ¥·é«”;     æ–‡å­—å­—å‹
+font-weightï¼š100	        æ–‡å­—ç²—åº¦
+text-alignï¼šcenter	æ–‡å­—å°é½Š
+text-decoration: none;	 æ–‡å­—åº•ç·š
+line-height: 24px;       æ–‡å­—è¡Œè·
+letter-spacing: 3px;	 æ–‡å­—é–“è·
+-------------------------------------------------------
+æ»‘é¼ å››å€‹ç‹€æ…‹(é †åºä¸å¯ä»¥è®Š)
+a:link{}          æ»‘é¼ æœªç§»é€²å»çš„ç‹€æ…‹
+a:visited{}       æ»‘é¼ é»æ“Šéçš„ç‹€æ…‹
+a:hover{}         æ»‘é¼ ç§»é€²å»çš„ç‹€æ…‹
+a:active{}        æ»‘é¼ æŒ‰è‘—å·¦éµä¸æ”¾çš„ç‹€æ…‹
+-------------------------------------------------------
+æ–‡å­—å–®ä½
 1em = 16px
 1.5em =24px
-*http://pxtoem.com/	px em Âà´«¾¹
-*https://goo.gl/tn79oz  px em rem »¡©ú
+*http://pxtoem.com/	px em è½‰æ›å™¨
+*https://goo.gl/tn79oz  px em rem èªªæ˜
 
-vw = view width		µøÂsÄı¾¹¼e«×
-1vw = ÂsÄı¾¹¼e«× 1%
+vw = view width		è¦–ç€è¦½å™¨å¯¬åº¦
+1vw = ç€è¦½å™¨å¯¬åº¦ 1%
 750px/100 =7.5px
 
-vh = view height	µøÂsÄı¾¹°ª«×
-1vh = ÂsÄı¾¹¼e«× 1%
+vh = view height	è¦–ç€è¦½å™¨é«˜åº¦
+1vh = ç€è¦½å™¨å¯¬åº¦ 1%
 750px/100 =7.5px
-*https://github.com/simaQ/cssfun/issues/1   font-size»¡©ú
+*https://github.com/simaQ/cssfun/issues/1   font-sizeèªªæ˜
 -------------------------------------------------------
-border(®Ø½u)
-border:#0000FF 5px solid; //ÃC¦â ¤j¤p ¹ê½u(ÁY¼g)
-border-style¡Gsolid / dashed / double /dotted; // ¹ê½u / µê½u / Âù½u / ÂI½u
-border-width¡G9px /thin / medium / thick ; // ®Ø½u²Ê«× / Á¡ / ¤¤µ¥ / «p
-border-color¡Gred; //®Ø½uÃC¦â
-border-bottom-style:solid; //©³½u (top / bottom / left / right)
-border-bottom-color:red; ©³½uÃC¦â
-border-radius:30px  ¼W²K¶ê¨¤Ãä®Ø
-box-shadow: 10px 10px 5px #888888;  ³±¼v (¤ô¥­¡A««ª½¡A¼Ò½k¡AÃC¦â)
+border(æ¡†ç·š)
+border:#0000FF 5px solid; //é¡è‰² å¤§å° å¯¦ç·š(ç¸®å¯«)
+border-styleï¼šsolid / dashed / double /dotted; // å¯¦ç·š / è™›ç·š / é›™ç·š / é»ç·š
+border-widthï¼š9px /thin / medium / thick ; // æ¡†ç·šç²—åº¦ / è–„ / ä¸­ç­‰ / åš
+border-colorï¼šred; //æ¡†ç·šé¡è‰²
+border-bottom-style:solid; //åº•ç·š (top / bottom / left / right)
+border-bottom-color:red; åº•ç·šé¡è‰²
+border-radius:30px  å¢æ·»åœ“è§’é‚Šæ¡†
+box-shadow: 10px 10px 5px #888888;  é™°å½± (æ°´å¹³ï¼Œå‚ç›´ï¼Œæ¨¡ç³Šï¼Œé¡è‰²)
 
 <hr>
 position: absolute;	 
-left: 100px;		 ¦ì¸m
-background-color:white;  ÃC¦â
-height: 3px;		 ²Ê«×
-width: 350px;            ªø«×
+left: 100px;		 ä½ç½®
+background-color:white;  é¡è‰²
+height: 3px;		 ç²—åº¦
+width: 350px;            é•·åº¦
 -------------------------------------------------------
-background(­I´º)
-background-color¡Gblue  	   «ü©w­I´ºªºÃC¦â
-background-image:url('img/1.jpg')  ­I´º¹Ï®×
-background-repeat(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×­«¤£­«½Æ)	   
-background-repeat: repeat(¹w³]­È)  ­I´º¹Ï®×¦b x- ¤Î y-¤è¦V­«½Æ
-background-repeat: no-repeat       ­I´º¹Ï®×¤£­«½Æ
-background-repeat: repeat-x        ­I´º¹Ï®×¦b x-¤è¦V­«½Æ
-background-repeat: repeat-y        ­I´º¹Ï®×¦b y-¤è¦V­«½Æ
-background-attachment(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×¬O§_¦b¿Ã¹õ¤W©T©w)
-background-attachment: scroll      ·íºô­¶±²°Ê®É¡A­I´º¹Ï®×·|¸òµÛ²¾°Ê
-background-attachment: fixed       ·íºô­¶±²°Ê®É¡A­I´º¹Ï®×©T©w¤£°Ê(¦p»İ¹Ï¤ùÀHµÛDiv¤j¤pÁY©ñ ³o¦æ¤£¥Î)
-background-position(Äİ©Ê¬O¥Î¨Ó«ü©w­I´º¹Ï®×ªº¦ì¸m)
-background-position: center center ¹Ï®×¥¿¤¤¥¡
-background-position: 20% 20%       ¹Ï®×ªº¦ì¸mÂ÷¤W­± 20% »PÂ÷¥ªÃä 20% ªº¦a¤è
+background(èƒŒæ™¯)
+background-colorï¼šblue  	   æŒ‡å®šèƒŒæ™¯çš„é¡è‰²
+background-image:url('img/1.jpg')  èƒŒæ™¯åœ–æ¡ˆ
+background-repeat(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆé‡ä¸é‡è¤‡)	   
+background-repeat: repeat(é è¨­å€¼)  èƒŒæ™¯åœ–æ¡ˆåœ¨ x- åŠ y-æ–¹å‘é‡è¤‡
+background-repeat: no-repeat       èƒŒæ™¯åœ–æ¡ˆä¸é‡è¤‡
+background-repeat: repeat-x        èƒŒæ™¯åœ–æ¡ˆåœ¨ x-æ–¹å‘é‡è¤‡
+background-repeat: repeat-y        èƒŒæ™¯åœ–æ¡ˆåœ¨ y-æ–¹å‘é‡è¤‡
+background-attachment(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆæ˜¯å¦åœ¨è¢å¹•ä¸Šå›ºå®š)
+background-attachment: scroll      ç•¶ç¶²é æ²å‹•æ™‚ï¼ŒèƒŒæ™¯åœ–æ¡ˆæœƒè·Ÿè‘—ç§»å‹•
+background-attachment: fixed       ç•¶ç¶²é æ²å‹•æ™‚ï¼ŒèƒŒæ™¯åœ–æ¡ˆå›ºå®šä¸å‹•(å¦‚éœ€åœ–ç‰‡éš¨è‘—Divå¤§å°ç¸®æ”¾ é€™è¡Œä¸ç”¨)
+background-position(å±¬æ€§æ˜¯ç”¨ä¾†æŒ‡å®šèƒŒæ™¯åœ–æ¡ˆçš„ä½ç½®)
+background-position: center center åœ–æ¡ˆæ­£ä¸­å¤®
+background-position: 20% 20%       åœ–æ¡ˆçš„ä½ç½®é›¢ä¸Šé¢ 20% èˆ‡é›¢å·¦é‚Š 20% çš„åœ°æ–¹
 -------------------------------------------------------
-position(Äİ©Ê¨î©w¥X­n¥Î­ş¤@Ãşªº¦ì¸m)
-position: static(¹w³]­È)    ¤¸¯À·|³Q©ñ¦b¹w³]ªº¦a¤è¡C ¦pªG position ªº­È¬O³Q³]©w¬° statics ªº¸Ü¡A¨º top¡Bbottom¡Bleft¡B©M right ªº­È´N³£¨S¦³·N¸q
-position: relative(¬Û¹ï)    ¤¸¯À³Q©ñªº¦a¤è±N·|»P¹w³]ªº¦a¤è¦³©Ò¤£¦P¡C¤£¦Pªºµ{«×¬O¨Ì·Ó top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w
-position: absolute(µ´¹ï)    ¤¸¯À·|³Q©ñ¦bÂsÄı¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯À¤]·|¸òµÛ§ïÅÜ¦ì¸m
-position: fixed(©T©w)  	    ¤¸¯À·|³Q©ñ¦bÂsÄı¾¹¤ºªº¬Y­Ó¦ì¸m (¨Ì top¡Bbottom¡Bleft¡B©M right ªº­È¦Ó©w)¡C ·í¨Ï¥ÎªÌ±Nºô­¶©¹¤U©Ô®É¡A¤¸¯Àªº¦ì¸m¤£·|§ïÅÜ
+position(å±¬æ€§åˆ¶å®šå‡ºè¦ç”¨å“ªä¸€é¡çš„ä½ç½®)
+position: static(é è¨­å€¼)    å…ƒç´ æœƒè¢«æ”¾åœ¨é è¨­çš„åœ°æ–¹ã€‚ å¦‚æœ position çš„å€¼æ˜¯è¢«è¨­å®šç‚º statics çš„è©±ï¼Œé‚£ topã€bottomã€leftã€å’Œ right çš„å€¼å°±éƒ½æ²’æœ‰æ„ç¾©
+position: relative(ç›¸å°)    å…ƒç´ è¢«æ”¾çš„åœ°æ–¹å°‡æœƒèˆ‡é è¨­çš„åœ°æ–¹æœ‰æ‰€ä¸åŒã€‚ä¸åŒçš„ç¨‹åº¦æ˜¯ä¾ç…§ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š
+position: absolute(çµ•å°)    å…ƒç´ æœƒè¢«æ”¾åœ¨ç€è¦½å™¨å…§çš„æŸå€‹ä½ç½® (ä¾ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š)ã€‚ ç•¶ä½¿ç”¨è€…å°‡ç¶²é å¾€ä¸‹æ‹‰æ™‚ï¼Œå…ƒç´ ä¹Ÿæœƒè·Ÿè‘—æ”¹è®Šä½ç½®
+position: fixed(å›ºå®š)  	    å…ƒç´ æœƒè¢«æ”¾åœ¨ç€è¦½å™¨å…§çš„æŸå€‹ä½ç½® (ä¾ topã€bottomã€leftã€å’Œ right çš„å€¼è€Œå®š)ã€‚ ç•¶ä½¿ç”¨è€…å°‡ç¶²é å¾€ä¸‹æ‹‰æ™‚ï¼Œå…ƒç´ çš„ä½ç½®ä¸æœƒæ”¹è®Š
 -------------------------------------------------------
-display¡]³W©w¤¸¯À¸Ó¥Í¦¨®ØªºÃş«¬¡^
-display : none		Åã¥Ü³o­ÓªF¦è¡A¤£¦ûªÅ¶¡
-*visibility : hidden	Áô§Î¬İ¤£¨£¡AÁÙ¬O¦³¦ûªÅ¶¡
-*http://www.zhangxinxu.com/wordpress/2012/02/css-overflow-hidden-visibility-hidden-disabled-use/	¤¸¯ÀÁôÂÃ
+displayï¼ˆè¦å®šå…ƒç´ è©²ç”Ÿæˆæ¡†çš„é¡å‹ï¼‰
+display : none		é¡¯ç¤ºé€™å€‹æ±è¥¿ï¼Œä¸ä½”ç©ºé–“
+*visibility : hidden	éš±å½¢çœ‹ä¸è¦‹ï¼Œé‚„æ˜¯æœ‰ä½”ç©ºé–“
+*http://www.zhangxinxu.com/wordpress/2012/02/css-overflow-hidden-visibility-hidden-disabled-use/	å…ƒç´ éš±è—
 --------------------------------------------------------------
-display : inline	¤¸¯À³s¦b¤@°_·|¦b¦P¤@¦æ¡A¤£·|´«¦æ     -
-¥i¥H¥Î						             -
+display : inline	å…ƒç´ é€£åœ¨ä¸€èµ·æœƒåœ¨åŒä¸€è¡Œï¼Œä¸æœƒæ›è¡Œ     -
+å¯ä»¥ç”¨						             -
 margin-left  margin-right			       	     -
 padding-left padding-right				     -
-¤£¯à¥Î							     -
+ä¸èƒ½ç”¨							     -
 margin-top   margin-bottom  				     -
 padding-top  padding-bottom				     -
 width	     height					     -			 
 background-image					     -
 				     			     -
-display : inline¤¸¯À¤ô¥­¸m¤¤¦b¤÷¤¸¯À¥[¤W text-align : center -			 
+display : inlineå…ƒç´ æ°´å¹³ç½®ä¸­åœ¨çˆ¶å…ƒç´ åŠ ä¸Š text-align : center -			 
 --------------------------------------------------------------
-display : block	       ¤¸¯À·|´«¦æ¡A¼e«×¹w³]·|¼µ¨ì³Ì¤j        -
-¤£ºŞ¬Æ»ò¤¸¯À³£¥i¥H¥Î					     -
+display : block	       å…ƒç´ æœƒæ›è¡Œï¼Œå¯¬åº¦é è¨­æœƒæ’åˆ°æœ€å¤§        -
+ä¸ç®¡ç”šéº¼å…ƒç´ éƒ½å¯ä»¥ç”¨					     -
 margin padding						     -
 width  height						     -
 background-image					     -
 							     -
-display : block ¤¸¯À¤ô¥­¸m¤¤ ¥[¤W margin : 0 auto            -
+display : block å…ƒç´ æ°´å¹³ç½®ä¸­ åŠ ä¸Š margin : 0 auto            -
 --------------------------------------------------------------
-display : inline-block ¥~­±¬O inline ¡A¸Ì­±¬O block¡A¤¸¯À¤£·|´«¦æ
-¤¸¯À³£¥i¥H¥Î
-¥Î CSS Åı³sµ²¥Î¹Ï¤ùÅã¥Ü´N¬O inline-block ±`¨£ªºÀ³¥Î
+display : inline-block å¤–é¢æ˜¯ inline ï¼Œè£¡é¢æ˜¯ blockï¼Œå…ƒç´ ä¸æœƒæ›è¡Œ
+å…ƒç´ éƒ½å¯ä»¥ç”¨
+ç”¨ CSS è®“é€£çµç”¨åœ–ç‰‡é¡¯ç¤ºå°±æ˜¯ inline-block å¸¸è¦‹çš„æ‡‰ç”¨
 https://goo.gl/bNqTmi 
-https://goo.gl/x3oxMA 	<a>¥]¦í<img>
+https://goo.gl/x3oxMA 	<a>åŒ…ä½<img>
 -------------------------------------------------------
-overflow(Äİ©Ê¬O¥Î¨Ó³]©w·í¤º®e©ñ¤£¤U®Éªº³B²z¤è¦¡)
-overflow: auto;     ·í¤º®e©ñ¤£¤U®É¡A¥[¤W±²¶bªº¥\¯à
-overflow:visible;   ¤º®e§¹¥ş§e²{¡A¤£ºŞ©ñ±o¤U©ñ¤£¤U
-overflow:hidden-x/y;    ¦Û°ÊÁôÂÃ¶W¥Xªº¤å¦r©Î¹Ï¤ù
-overflow:scroll;    µL½×¤º®e©ñ±o¤U©ñ¤£¤U¡A³£¥[¤J¤W¤U±²¶b¤Î¥ª¥k±²¶bªº¥\¯à
-overflow:inherit;   Ä~©Ó¦Û¤÷¤¸¯Àªº¥i¨£©Ê
+overflow(å±¬æ€§æ˜¯ç”¨ä¾†è¨­å®šç•¶å…§å®¹æ”¾ä¸ä¸‹æ™‚çš„è™•ç†æ–¹å¼)
+overflow: auto;     ç•¶å…§å®¹æ”¾ä¸ä¸‹æ™‚ï¼ŒåŠ ä¸Šæ²è»¸çš„åŠŸèƒ½
+overflow:visible;   å…§å®¹å®Œå…¨å‘ˆç¾ï¼Œä¸ç®¡æ”¾å¾—ä¸‹æ”¾ä¸ä¸‹
+overflow:hidden-x/y;    è‡ªå‹•éš±è—è¶…å‡ºçš„æ–‡å­—æˆ–åœ–ç‰‡
+overflow:scroll;    ç„¡è«–å…§å®¹æ”¾å¾—ä¸‹æ”¾ä¸ä¸‹ï¼Œéƒ½åŠ å…¥ä¸Šä¸‹æ²è»¸åŠå·¦å³æ²è»¸çš„åŠŸèƒ½
+overflow:inherit;   ç¹¼æ‰¿è‡ªçˆ¶å…ƒç´ çš„å¯è¦‹æ€§
 -------------------------------------------------------
-z-index¡]³]©w¤¸¯Àªº°ïÅ|¶¶§Ç °ª¼Æ¦r·|¦b§C¼Æ¦rªº«e­±¡^
-z-index:-1	¥i¬°­t¼Æ
+z-indexï¼ˆè¨­å®šå…ƒç´ çš„å †ç–Šé †åº é«˜æ•¸å­—æœƒåœ¨ä½æ•¸å­—çš„å‰é¢ï¼‰
+z-index:-1	å¯ç‚ºè² æ•¸
 -------------------------------------------------------
-max-height:50px;	³Ì¤j°ª«×­­¨î50px	¥ş³¡¤å¦r³£·|À½¦b50px°ª«×ªº½d³ò¤º
-max-width:200px		³Ì¤j¼e«×­­¨î200px	¥ş³¡¤å¦r³£·|À½¦b200px¼e«×ªº½d³ò¤º
-min-height:100px;	¬q¸¨³Ì¤p°ª«×
+max-height:50px;	æœ€å¤§é«˜åº¦é™åˆ¶50px	å…¨éƒ¨æ–‡å­—éƒ½æœƒæ“ åœ¨50pxé«˜åº¦çš„ç¯„åœå…§
+max-width:200px		æœ€å¤§å¯¬åº¦é™åˆ¶200px	å…¨éƒ¨æ–‡å­—éƒ½æœƒæ“ åœ¨200pxå¯¬åº¦çš„ç¯„åœå…§
+min-height:100px;	æ®µè½æœ€å°é«˜åº¦
 -------------------------------------------------------
-max-width ªí¥Ü³o­Ó¼Æ¦r¥H¤U¡]¥]§t¡^ªº³£¾A¥Î¡C
-min-width ªí¥Ü³o­Ó¼Æ¦r¥H¤W¡]¥]§t¡^ªº³£¾A¥Î
-@media (max-width: 700px) {	700px¥H¤U¾A¥Î
+max-width è¡¨ç¤ºé€™å€‹æ•¸å­—ä»¥ä¸‹ï¼ˆåŒ…å«ï¼‰çš„éƒ½é©ç”¨ã€‚
+min-width è¡¨ç¤ºé€™å€‹æ•¸å­—ä»¥ä¸Šï¼ˆåŒ…å«ï¼‰çš„éƒ½é©ç”¨
+@media (max-width: 700px) {	700pxä»¥ä¸‹é©ç”¨
 }
-@media (min-width: 700px) {	700px¥H¤W¾A¥Î
+@media (min-width: 700px) {	700pxä»¥ä¸Šé©ç”¨
 }
-@media (min-width: 400px) and (max-width: 900px) {	¤j©ó400px ¦ı¤p©ó900px
+@media (min-width: 400px) and (max-width: 900px) {	å¤§æ–¼400px ä½†å°æ–¼900px
 }
 -------------------------------------------------------
-2DÂà´«
-transform:translate(x(¾î),y(Áa))   2D ¾î¦V²¾°Êx¶ZÂ÷¡BÁa¦V²¾°Êy¶ZÂ÷
+2Dè½‰æ›
+transform:translate(x(æ©«),y(ç¸±))   2D æ©«å‘ç§»å‹•xè·é›¢ã€ç¸±å‘ç§»å‹•yè·é›¢
 translate()
 rotate()
 scale()
 skew()
 matrix()
 
-ÂàÅÜ
-transition-property		³W©w³]¸m®ÄªGªºCSS Äİ©Êªº¦WºÙ
-transition-duration		³W©w§¹¦¨®ÄªG»İ­n¦h¤Ö¬í©Î²@¬í
-transition-timing-function	©w¸q³t«×®ÄªGªº³t«×¦±½u
-transition-delay		©w¸q®ÄªG¦ó®É¶}©l
+è½‰è®Š
+transition-property		è¦å®šè¨­ç½®æ•ˆæœçš„CSS å±¬æ€§çš„åç¨±
+transition-duration		è¦å®šå®Œæˆæ•ˆæœéœ€è¦å¤šå°‘ç§’æˆ–æ¯«ç§’
+transition-timing-function	å®šç¾©é€Ÿåº¦æ•ˆæœçš„é€Ÿåº¦æ›²ç·š
+transition-delay		å®šç¾©æ•ˆæœä½•æ™‚é–‹å§‹
 -------------------------------------------------------
-Animation.CSS	·L°Êµe(¥~±¾)
-*http://blog.infographics.tw/2016/11/animate-css/   	 Animation ¤¶²Ğ
+Animation.CSS	å¾®å‹•ç•«(å¤–æ›)
+*http://blog.infographics.tw/2016/11/animate-css/   	 Animation ä»‹ç´¹
 *https://daneden.github.io/animate.css/ 		 Animation DEMO
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> ¤Ş¤J<head>
-class="animated(¼Ë¦¡¿ï¾Ü¾¹) 5s(®É¶¡ªø«×) infinite(µL­­´`Àô) bounce(ºØÃş-¼u¸õ)"
-animation-duration:5s             ±±¨î³æ¦¸°Êµe®É¶¡ªø«×
-animation-iteration-count:3       ±±¨î°Êµe­«¼½ªº¦¸¼Æ
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> å¼•å…¥<head>
+class="animated(æ¨£å¼é¸æ“‡å™¨) 5s(æ™‚é–“é•·åº¦) infinite(ç„¡é™å¾ªç’°) bounce(ç¨®é¡-å½ˆè·³)"
+animation-duration:5s             æ§åˆ¶å–®æ¬¡å‹•ç•«æ™‚é–“é•·åº¦
+animation-iteration-count:3       æ§åˆ¶å‹•ç•«é‡æ’­çš„æ¬¡æ•¸
 --------------------------------------------------------
-Animation.CSS	·L°Êµe
-*http://www.w3school.com.cn/cssref/pr_animation.asp	 w3school ¤¶²Ğ
+Animation.CSS	å¾®å‹•ç•«
+*http://www.w3school.com.cn/cssref/pr_animation.asp	 w3school ä»‹ç´¹
 animation: name duration | timing-function | delay | iteration-count | direction;
-animation-name			¿ï¾Ü¾¹¦WºÙ
-animation-duration		ªá¶Oªº®É¶¡
-animation-timing-function	³t«×¦±½u
-animation-delay			°Êµe¶}©l«e©µ¿ğ
-animation-iteration-count	¼½©ñ¦¸¼Æ
-animation-direction		½ü¬y¤Ï¦V¼½©ñ°Êµe
+animation-name			é¸æ“‡å™¨åç¨±
+animation-duration		èŠ±è²»çš„æ™‚é–“
+animation-timing-function	é€Ÿåº¦æ›²ç·š
+animation-delay			å‹•ç•«é–‹å§‹å‰å»¶é²
+animation-iteration-count	æ’­æ”¾æ¬¡æ•¸
+animation-direction		è¼ªæµåå‘æ’­æ”¾å‹•ç•«
 -------------------------------------------------------
-keyframe	°Êµe®ÄªG(@keyframes³W«h ¥i¥H³Ğ«Ø°Êµe)
-*http://www.w3school.com.cn/cssref/pr_keyframes.asp	 w3school ¤¶²Ğ
-*https://dotblogs.com.tw/knightzone/2013/09/07/116716	 ¨Ï¥Îkeyframe»Panimation »s§@°Êµe
-ÂsÄı¾¹¤ä´©
+keyframe	å‹•ç•«æ•ˆæœ(@keyframesè¦å‰‡ å¯ä»¥å‰µå»ºå‹•ç•«)
+*http://www.w3school.com.cn/cssref/pr_keyframes.asp	 w3school ä»‹ç´¹
+*https://dotblogs.com.tw/knightzone/2013/09/07/116716	 ä½¿ç”¨keyframeèˆ‡animation è£½ä½œå‹•ç•«
+ç€è¦½å™¨æ”¯æ´
 @-moz-keyframes mymove 		 Firefox 
-@-webkit-keyframes mymove 	 Safari ©M Chrome
+@-webkit-keyframes mymove 	 Safari å’Œ Chrome
 @-o-keyframes mymove 		 Opera 
-0%	°Êµe¶}©l®É¶¡
-100%	°Êµeµ²§ô®É¶¡
+0%	å‹•ç•«é–‹å§‹æ™‚é–“
+100%	å‹•ç•«çµæŸæ™‚é–“
 div{
-     animation:mymove(¼Ë¦¡¿ï¾Ü¾¹) 5s(®É¶¡ªø«×) infinite(µL­­´`Àô);
+     animation:mymove(æ¨£å¼é¸æ“‡å™¨) 5s(æ™‚é–“é•·åº¦) infinite(ç„¡é™å¾ªç’°);
      -webkit-animation:mymove 5s infinite; /* Safari and Chrome */
 }
 @-webkit-keyframes mymove /* Safari and Chrome */
@@ -200,65 +207,65 @@ div{
 }
 -------------------------------------------------------
 RWD
-¥Î©ó³W©w¸Ë¸mªºªºµ²ºc³W«h
+ç”¨æ–¼è¦å®šè£ç½®çš„çš„çµæ§‹è¦å‰‡
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">	
-¤è«K¹Ï¤ù«ö·Ó¿Ã¹õ¼e«×ªº¦Û°ÊÁY©ñ
+æ–¹ä¾¿åœ–ç‰‡æŒ‰ç…§è¢å¹•å¯¬åº¦çš„è‡ªå‹•ç¸®æ”¾
 img {
      height: auto;
      max-width: 100%;
 }
 
-// Media Query ¡A¤]´N¬O·í¼e«× < 768 px ®É±N¸ü¤J¤U­±³o¬q CSS :
+// Media Query ï¼Œä¹Ÿå°±æ˜¯ç•¶å¯¬åº¦ < 768 px æ™‚å°‡è¼‰å…¥ä¸‹é¢é€™æ®µ CSS :
  @media only screen and (max-width: 768px) {
-     //CSSªº¤º®e
+     //CSSçš„å…§å®¹
      ....
 }
 
-// Media Query ¡A¤]´N¬O·í¼e«× < 480 px ®É±N¸ü¤J¤U­±³o¬q CSS :
+// Media Query ï¼Œä¹Ÿå°±æ˜¯ç•¶å¯¬åº¦ < 480 px æ™‚å°‡è¼‰å…¥ä¸‹é¢é€™æ®µ CSS :
  @media only screen and (max-width: 480px) {
-     //CSSªº¤º®e
+     //CSSçš„å…§å®¹
      ....
 }
 
-// Media Query ¡A¤]´N¬O·í¼e«× < 320 px ®É±N¸ü¤J¤U­±³o¬q CSS :
+// Media Query ï¼Œä¹Ÿå°±æ˜¯ç•¶å¯¬åº¦ < 320 px æ™‚å°‡è¼‰å…¥ä¸‹é¢é€™æ®µ CSS :
  @media only screen and (max-width: 320px) {
-     //CSSªº¤º®e
+     //CSSçš„å…§å®¹
      ....
 }
 
 
 -------------------------------------------------------
-<div><span> °ò¥»±Æª© (¥i¥Î¦³ÃC¦âªº½u±ø¬İªÅ¶¡¬O¦p¦ó)
+<div><span> åŸºæœ¬æ’ç‰ˆ (å¯ç”¨æœ‰é¡è‰²çš„ç·šæ¢çœ‹ç©ºé–“æ˜¯å¦‚ä½•)
 
 body{
-text-align:center; //¾ãÅé¸m¤¤
+text-align:center; //æ•´é«”ç½®ä¸­
 width:100%;
 margin:0;
 }
 
 div{
-width:350px;    //¤£·|ÀHªÌ¤ñ¨Ò¤j¤p©ñ¤j
+width:350px;    //ä¸æœƒéš¨è€…æ¯”ä¾‹å¤§å°æ”¾å¤§
 margin-right:auto;
 margin-left:auto;
 }
 
-padding:15px;  //¥|­ÓÃä¦P¼Ë­È
-padding:15px(¤W¤U) 20px(¥ª¥k);  //¤º³¡¶ZÂ÷
-padding:(¤W)(¥k)(¤U)(¥ª);
+padding:15px;  //å››å€‹é‚ŠåŒæ¨£å€¼
+padding:15px(ä¸Šä¸‹) 20px(å·¦å³);  //å…§éƒ¨è·é›¢
+padding:(ä¸Š)(å³)(ä¸‹)(å·¦);
 
-margin:15px;  //¥|­ÓÃä¦P¼Ë­È
-margin:15px(¤W¤U) 20px(¥ª¥k);  //¥~³¡¶ZÂ÷
-margin:(¤W)(¥k)(¤U)(¥ª);
+margin:15px;  //å››å€‹é‚ŠåŒæ¨£å€¼
+margin:15px(ä¸Šä¸‹) 20px(å·¦å³);  //å¤–éƒ¨è·é›¢
+margin:(ä¸Š)(å³)(ä¸‹)(å·¦);
 
-position:relative ¦ì¸mªº¬Û¹ï¦ì¸m   ¬Û¹ï¦ì¸m¡G¤å³¹±Æ¨ì­ş´N±q¨ºÃä¶}©l
-top:20px;  // right / bottom ¥i§ó§ïdiv¦ì¸m
+position:relative ä½ç½®çš„ç›¸å°ä½ç½®   ç›¸å°ä½ç½®ï¼šæ–‡ç« æ’åˆ°å“ªå°±å¾é‚£é‚Šé–‹å§‹
+top:20px;  // right / bottom å¯æ›´æ”¹divä½ç½®
 left:20px;
 
-*display: inline-block; ©Ò¦³¤å¦r©Î¹Ï¤ù§¡¤£´«¦æ¡A¤]´N¬O¥ş³¡³£·|¬O¦P¤@¦æ
-                       ¦Û°Ê¯B°Ê¤ô¥­±Æ¦C¡A¤£¶·ÃB¥~¥[clear()
+*display: inline-block; æ‰€æœ‰æ–‡å­—æˆ–åœ–ç‰‡å‡ä¸æ›è¡Œï¼Œä¹Ÿå°±æ˜¯å…¨éƒ¨éƒ½æœƒæ˜¯åŒä¸€è¡Œ
+                       è‡ªå‹•æµ®å‹•æ°´å¹³æ’åˆ—ï¼Œä¸é ˆé¡å¤–åŠ clear()
 width: 200px;
 height: 100px;
-padding:80px 50px;  //§Q¥Îpadding©Mmargin¨Ó²¾®y¼Ğ¦ì¸m¡Amargin¥i¥Î­tªº¡Apadding¤£¦æ
+padding:80px 50px;  //åˆ©ç”¨paddingå’Œmarginä¾†ç§»åº§æ¨™ä½ç½®ï¼Œmarginå¯ç”¨è² çš„ï¼Œpaddingä¸è¡Œ
 margin-left:-500px; 
 margin-top:-300px;
 
